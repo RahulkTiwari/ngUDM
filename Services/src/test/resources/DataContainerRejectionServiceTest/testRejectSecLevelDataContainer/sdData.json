@@ -1,0 +1,333 @@
+{
+    "_id" : ObjectId("603cf3bbd4752b4fa6eee6c5"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2021-03-01T14:01:23.130Z"),
+                "fileName" : "C:\\Data\\TestData\\Trdse\\tr.txt"
+            }
+        ],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "fba143b7-0559-46cb-a59a-d49689141f27"
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "RTS",
+                    "domain" : "trcsMap"
+                }
+            }
+        },
+        "australiaInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "austrianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "belgianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "brazilianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cfiCode" : {
+            "FEED" : {
+                "value" : "rxxxxx"
+            }
+        },
+        "cins" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "commonCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cumulativeFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "depositaryReceiptTypeCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "depositaryReceiptsPerShare" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "dutchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fisn" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "frenchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fttFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fundType" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "hongKongInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "41041752-81ec-4efd-ae69-e8d40c7f79d2",
+                            "documentId" : ObjectId("603cf3b1d4752b4fa6eee6c4")
+                        }
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "92971"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {}
+                },
+                "refData" : {
+                    "audit" : [],
+                    "securities" : [ 
+                        {
+                            "audit" : [],
+                            "ric" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            },
+                            "trQuoteId" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "0x00100b002048caff"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "0",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "japanSiccId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "kazakhstanInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "malaysiaInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "nameLong" : {
+            "FEED" : {
+                "value" : "Elegance Optical Intl Holds Rights"
+            }
+        },
+        "rule13FSecuritiesFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "rule144AFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2021-03-01T14:01:23.130Z"),
+                        "fileName" : "C:\\Data\\TestData\\Trdse\\tr.txt"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "603cf3a8d4752b4fa6eee6c3"
+                    }
+                },
+                "securityStatus" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "rduSecurityType" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "Technical"
+                        }
+                    }
+                }
+            }
+        ],
+        "shareClass" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "sharesPerDepositaryReceipt" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "singaporeInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "taiwanInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "trAssetId" : {
+            "FEED" : {
+                "value" : "0x00100b002048caff"
+            }
+        },
+        "trPrimaryIssueLevelCode" : {
+            "FEED" : {
+                "value" : "25727355671"
+            }
+        },
+        "underlyingPerWarrant" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "valoren" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "warrantsPerUnderlying" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "wkn" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "openCloseEndIndicator" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "countryOfTaxationCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "BMU",
+                    "domain" : "countryOfTaxationMap"
+                }
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-03-01T14:01:23.130Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

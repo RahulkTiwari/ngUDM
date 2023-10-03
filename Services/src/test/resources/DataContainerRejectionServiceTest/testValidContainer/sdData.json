@@ -1,0 +1,622 @@
+{
+    "_id" : ObjectId("6dd29be51aa3d6547e7158e9"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "f6010c80-f5be-4995-bfc7-47cdf52b398a"
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "CAPSEC",
+                    "domain":"trcsMap"
+                }
+            }
+        },
+        "australiaInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "austrianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "belgianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "brazilianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cfiCode" : {
+            "FEED" : {
+                "value" : "CICIBU"
+            }
+        },
+        "cins" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "commonCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cumulativeFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "depositaryReceiptTypeCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "depositaryReceiptsPerShare" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "dutchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fisn" : {
+            "FEED" : {
+                "value" : "DSP BLRCK MF FMP/UT RGLR (D)"
+            }
+        },
+        "frenchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fttFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fundType" : {
+            "FEED" : {
+                "value" : "CEF"
+            }
+        },
+        "hongKongInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {}
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "113304508"
+                        }
+                        },
+                     "legalEntityName":{
+                     "FEED":{
+                     "value":"Tata Consultancy"
+                     }
+                     },
+                     "legalEntityNameShort":{
+                        "FEED":{
+                        "value":"TCS"
+                        }
+                        }
+                    }
+                }
+            
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {}
+                },
+                "refData" : {
+                    "audit" : [],
+                    "isin":{
+                        "FEED":{
+                          "value":"UNDISIN"
+                        }
+                    },
+                    "securities": [
+                        {
+                            "ric": {
+                                "FEED":{
+                                    "errorCode": 103
+                                }  
+                                }
+                            ,
+                            "trQuoteId": {
+                                "FEED":{
+                                    "value":"abc"
+                                }
+                                }
+                        }
+                    ]
+                    
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "0x00100b001427c127"
+            }
+        },
+         "rduInactivationDate" : {
+            "ENRICHED" : {
+                "value" :  ISODate("2040-11-20T23:34:20.472Z"),
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                     "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "INF740KA1AE4"
+            }
+        },
+        "japanSiccId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "kazakhstanInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "lipperId" : {
+            "FEED" : {
+                "value" : "68411086"
+            }
+        },
+        "malaysiaInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "nameLong" : {
+            "FEED" : {
+                "value" : "DSP FMP-Srs 204-37M-Dividend"
+            }
+        },
+        "primaryExchangeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "XBOM"
+                }
+            }
+        },
+        "rule13FSecuritiesFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "rule144AFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "securities" : [ 
+            {
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5dd29bc41aa3d6547e71489c"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "LIP"
+                        }
+                    }
+                },
+                "segmentMic" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "operatingMic" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "officialPlaceOfListingMic" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "primaryRicFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ric" : {
+                    "FEED" : {
+                        "value" : "LP68411086"
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "0x00100b00144ab9f6"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "suspendedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "0x00100b00144ab9f6"
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "INR"
+                        }
+                    }
+                },
+                "tradingSymbol" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default"
+                        }
+                    }
+                },
+                "vendorExchangeCode" : {
+                    "FEED" : {
+                        "value" : "LIP"
+                    }
+                }
+            }, 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2019-11-20T23:34:20.472Z"),
+                        "fileName" : "/EFS_data/daq01/camel/equities/data/uncompress/.done/17571116.V"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "2"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5dd5cc951aa3d6547efdfae4"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "value" : "540368"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XBOM"
+                        }
+                    }
+                },
+                "segmentMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XBOM"
+                        }
+                    }
+                },
+                "operatingMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XBOM"
+                        }
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "value" : "540368"
+                    }
+                },
+                "trConsolidatedRic" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2017-03-17T00:00:00.000Z")
+                    }
+                },
+                "listingStatus" : {
+                    "FEED" : {
+                        "value" : "LIS"
+                    }
+                },
+                "numberOfDaysToSettle" : {
+                    "FEED" : {
+                        "value" : NumberLong(2)
+                    }
+                },
+                "officialPlaceOfListingMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XBOM"
+                        }
+                    }
+                },
+                "primaryRicFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Y"
+                        }
+                    }
+                },
+                "ptmLevyEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ric" : {
+                    "FEED" : {
+                        "value" : "D37MS204RR.BO"
+                    }
+                },
+                "roundLotSize" : {
+                    "FEED" : {
+                        "value" : NumberLong(1)
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "0x00100b00145084c2"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "value" : "BF336K2"
+                    }
+                },
+                "shHkStockConnectEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "stampDutyReserveTaxFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "suspendedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "0x00100b00145084c2"
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "INR"
+                        }
+                    }
+                },
+                "tradingSymbol" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "whenDistributedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "whenIssuedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default"
+                        }
+                    }
+                },
+                "periodicCallAuctionFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "vendorExchangeCode" : {
+                    "FEED" : {
+                        "value" : "BSE"
+                    }
+                }
+            }
+        ],
+        "shareClass" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "sharesPerDepositaryReceipt" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "singaporeInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "taiwanInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "trAssetId" : {
+            "FEED" : {
+                "value" : "0x00100b001427c127"
+            }
+        },
+        "trPrimaryIssueLevelCode" : {
+            "FEED" : {
+                "value" : "144257569"
+            }
+        },
+        "underlyingPerWarrant" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "valoren" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "warrantsPerUnderlying" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "wkn" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "openCloseEndIndicator" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "CEF"
+                }
+            }
+        },
+        "countryOfTaxationCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2019-11-18T13:25:57.332Z")
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2019-12-04T23:45:28.731Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

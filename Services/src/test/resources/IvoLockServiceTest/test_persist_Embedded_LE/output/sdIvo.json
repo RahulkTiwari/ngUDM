@@ -1,0 +1,47 @@
+{
+    "_id" : ObjectId("5d8e057472d09a9860fcbb2e"),
+    "version" : NumberLong(0),
+    "docType" : {
+        "RDU" : {
+            "value" : "RDU"
+        }
+    },
+    "instrument" : {
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "gicsIndustryCode" : {
+                        "RDU" : {
+                            "value" : "402040"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "RDU" : {
+                        "value" : "IVO"
+                    }
+                },
+                "referenceId" : {
+                    "RDU" : {
+                        "value" : {
+                            "objectId" : "RDUNIN000000000001",
+                            "documentId" : "5c6d5419f23a5e69a44c7d5f"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdIvo"
+}
+;

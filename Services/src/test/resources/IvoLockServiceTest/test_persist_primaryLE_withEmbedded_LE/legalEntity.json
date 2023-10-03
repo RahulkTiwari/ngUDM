@@ -1,0 +1,81 @@
+{
+    "_id" : ObjectId("5eb26818a88d791074ce3ae8"),
+    "version" : NumberLong(1),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "legalEntity" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-05-06T07:32:40.493Z"),
+                "fileName" : "C:\\Users\\sajadhav\\Desktop\\BUILD_FOR_DOMAIN\\Data\\reuters_XE.txt"
+            }, 
+            {
+                "auditIndex" : 1,
+                "user" : "UUI",
+                "program" : "NG-EquityWeb",
+                "updateDate" : ISODate("2020-05-27T11:11:53.800Z")
+            }
+        ],
+        "_legalEntityId" : {
+            "FEED" : {
+                "value" : "549300Z4OX502YK2WA31"
+            }
+        },
+        "gicsIndustryCode" : {
+            "RDU" : {
+                "value" : "402030"
+            }
+        },
+        "legalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "RDU" : {
+                        "value" : "Branch"
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "gicsIndustryCode" : {
+                        "RDU" : {
+                            "value" : "402030"
+                        }
+                    },
+                    "gicsSubIndustryCode":{
+                    	"RDU":{
+                    		"value":"A2B2C2"
+                    	}
+                    }
+                }
+            },
+            {
+                "relationType" : {
+                    "RDU" : {
+                        "value" : "Guarantor"
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "gicsIndustryCode" : {
+                        "RDU" : {
+                            "value" : "402030"
+                        }
+                    }
+                }
+            }
+        ],
+        "legalEntitySourceUniqueId" : {
+            "FEED" : {
+                "value" : "114213259"
+            }
+    }
+	},
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

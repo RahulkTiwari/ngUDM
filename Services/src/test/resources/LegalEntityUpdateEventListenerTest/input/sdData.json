@@ -1,0 +1,123 @@
+{
+    "_id" : ObjectId("5eff066c2dd8674b19f58a89"),
+    "version" : NumberLong(1),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "legalEntity" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-07-03T10:20:28.182Z"),
+                "fileName" : "C:\\Users\\sajadhav\\Desktop\\BUILD_FOR_DOMAIN\\Data\\reuters_XE.txt"
+            }
+        ],
+        "_legalEntityId" : {
+            "FEED" : {
+                "value" : "64c3b3b0-27a3-4b73-acf4-44788744ea99"
+            }
+        },
+        "gicsIndustryCode" : {
+            "FEED" : {
+                "value" : "A1B1C1"
+            }
+        },
+        "gicsIndustryGroupCode" : {
+            "FEED" : {
+                "value" : "A1B1"
+            }
+        },
+        "gicsSectorCode" : {
+            "FEED" : {
+                "value" : "A1"
+            }
+        },
+        "gicsSubIndustryCode" : {
+            "FEED" : {
+                "value" : "A1B1C1"
+            }
+        },
+        "legalEntityFormCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "ABC",
+                    "domain" : "organizationalTypeMap"
+                }
+            }
+        },
+        "legalEntityName" : {
+            "FEED" : {
+                "value" : "Zoe's Kitchen Inc"
+            }
+        },
+        "legalEntityNameShort" : {
+            "FEED" : {
+                "value" : "Zoe's Kitchen"
+            }
+        },
+        "legalEntitySourceUniqueId" : {
+            "FEED" : {
+                "value" : "114213259"
+            }
+        },
+        "legalEntityStatus" : {
+            "ENRICHED" : {
+                "value" : {
+                    "normalizedValue" : "A"
+                }
+            }
+        },
+        "lei" : {
+            "FEED" : {
+                "value" : "549300Z4OX502YK2WA31"
+            }
+        },
+        "trBusinessClassificationActivity" : {
+            "FEED" : {
+                "value" : "21"
+            }
+        },
+        "trBusinessClassificationBusinessSector" : {
+            "FEED" : {
+                "value" : "21"
+            }
+        },
+        "trBusinessClassificationEconomicSector" : {
+            "FEED" : {
+                "value" : "21"
+            }
+        },
+        "trBusinessClassificationIndustry" : {
+            "FEED" : {
+                "value" : "21"
+            }
+        },
+        "trBusinessClassificationIndustryGroup" : {
+            "FEED" : {
+                "value" : "21"
+            }
+        },
+        "trIssuerOrgId" : {
+            "FEED" : {
+                "value" : "114213259"
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-07-03T10:20:28.182Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

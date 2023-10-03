@@ -1,0 +1,2 @@
+db.edDataSourceCodes.updateMany({'status.RDU.value':'A'},{$set:{'exchangeOwner': {'RDU':{'value':'Ashish.Patil@smartstreamrdu.com'}}}})
+db.edDataSourceCodes.updateMany({'status.RDU.value':'A'},{$set:{'allOpsAnalysts': {'RDU':{'value':'pallavi.kulkarni@smartstreamrdu.com'}}}})

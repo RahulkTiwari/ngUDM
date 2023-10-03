@@ -1,0 +1,743 @@
+{
+    "_id" : ObjectId("5f87414ca2aaef27745e51dc"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-10-14T18:19:56.841Z"),
+                "fileName" : "C:\\Data\\TestData\\IDC\\multilisted.xml"
+            }
+        ],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "2de1efff-412f-4182-8be9-9da774801ac6"
+            }
+        },
+        "insRawDataId" : {
+            "FEED" : {
+                "value" : "5f8727cdc455ba649e1dda8b"
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "EquityTypeMap"
+                }
+            }
+        },
+        "belgianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cins" : {
+            "FEED" : {
+                "value" : "Q8710L109"
+            }
+        },
+        "commonCode" : {
+            "FEED" : {
+                "value" : "192194431"
+            }
+        },
+        "issueCountryCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "AU",
+                    "domain" : "isoCountryMap"
+                }
+            }
+        },
+        "currentAmountOutstanding" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "currentNominalAmount" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "currentNominalCurrencyCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "currentSecuritiesOutstanding" : {
+            "FEED" : {
+                "value" : NumberDecimal("156972435")
+            }
+        },
+        "currentSecuritiesOutstandingDate" : {
+            "FEED" : {
+                "value" : ISODate("2019-12-26T18:30:00.000Z")
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "danishInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "depositaryReceiptTypeCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "dutchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fisn" : {
+            "FEED" : {
+                "value" : "NPV"
+            }
+        },
+        "fttFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fundType" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "514a31a2-8862-451e-9131-d77de4a346d2",
+                            "documentId" : ObjectId("5f87211eb79fbd0516317172")
+                        }
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "22155256"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {}
+                },
+                "refData" : {
+                    "audit" : [],
+                    "securities" : [ 
+                        {
+                            "audit" : [],
+                            "exchangeTicker" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            },
+                            "securitySourceUniqueId" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            },
+                            "sedol" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "214487410"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "2",
+                    "domain" : "BondIssueStatusMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "AU0000033987"
+            }
+        },
+        "japanQuickId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "legalFormType" : {
+            "FEED" : {
+                "value" : "Registered"
+            }
+        },
+        "nameLong" : {
+            "FEED" : {
+                "value" : "NPV"
+            }
+        },
+        "nameShort" : {
+            "FEED" : {
+                "value" : "NPV"
+            }
+        },
+        "primaryExchangeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "XASX",
+                    "domain" : "isoMicMap"
+                }
+            }
+        },
+        "regSFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "rule144AFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-10-14T18:19:56.841Z"),
+                        "fileName" : "C:\\Data\\TestData\\IDC\\multilisted.xml"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "deListingDate" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "dividendFrequency" : {
+                    "FEED" : {
+                        "value" : "Annual"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "FRAB",
+                            "domain" : "isoMicMap"
+                        }
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "value" : "FVK"
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingStatus" : {
+                    "FEED" : {
+                        "value" : "Active"
+                    }
+                },
+                "marginAccountEligibilityFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ptmLevyEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "78",
+                            "domain" : "PTMLevyTypeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "214691545"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeMap"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "value" : "BFMG378"
+                    }
+                },
+                "shHkStockConnectEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "shHkStockConnectEligibleFlagMap"
+                        }
+                    }
+                },
+                "stampDutyReserveTaxFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "suspendedFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeSuspendedFlagMap"
+                        }
+                    }
+                },
+                "tradeCountryCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "DE",
+                            "domain" : "isoCountryMap"
+                        }
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "EUR",
+                            "domain" : "isoCurrencyMap"
+                        }
+                    }
+                },
+                "whenIssuedFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeWhenIssuedFlagMap"
+                        }
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "xrfAdditionalTypesMap"
+                        }
+                    }
+                },
+                "rduSecurityType" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "Regular"
+                        }
+                    }
+                }
+            }, 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-10-14T18:19:56.841Z"),
+                        "fileName" : "C:\\Data\\TestData\\IDC\\multilisted.xml"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "2"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "deListingDate" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "dividendFrequency" : {
+                    "FEED" : {
+                        "value" : "Annual"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XASX",
+                            "domain" : "isoMicMap"
+                        }
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "value" : "SF1"
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingStatus" : {
+                    "FEED" : {
+                        "value" : "Active"
+                    }
+                },
+                "marginAccountEligibilityFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ptmLevyEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "78",
+                            "domain" : "PTMLevyTypeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "214324244"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeMap"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "value" : "BH399B6"
+                    }
+                },
+                "shHkStockConnectEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "shHkStockConnectEligibleFlagMap"
+                        }
+                    }
+                },
+                "stampDutyReserveTaxFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "suspendedFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeSuspendedFlagMap"
+                        }
+                    }
+                },
+                "tradeCountryCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "AU",
+                            "domain" : "isoCountryMap"
+                        }
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "AUD",
+                            "domain" : "isoCurrencyMap"
+                        }
+                    }
+                },
+                "whenIssuedFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeWhenIssuedFlagMap"
+                        }
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "xrfAdditionalTypesMap"
+                        }
+                    }
+                },
+                "rduSecurityType" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "Regular"
+                        }
+                    }
+                }
+            }, 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-10-14T18:19:56.841Z"),
+                        "fileName" : "C:\\Data\\TestData\\IDC\\multilisted.xml"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "3"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "deListingDate" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "dividendFrequency" : {
+                    "FEED" : {
+                        "value" : "Annual"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "CHIA",
+                            "domain" : "isoMicMap"
+                        }
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "value" : "SF1"
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingStatus" : {
+                    "FEED" : {
+                        "value" : "Active"
+                    }
+                },
+                "marginAccountEligibilityFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ptmLevyEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "78",
+                            "domain" : "PTMLevyTypeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "256064733"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeMap"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "shHkStockConnectEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "shHkStockConnectEligibleFlagMap"
+                        }
+                    }
+                },
+                "stampDutyReserveTaxFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "suspendedFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeSuspendedFlagMap"
+                        }
+                    }
+                },
+                "tradeCountryCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "AU",
+                            "domain" : "isoCountryMap"
+                        }
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "AUD",
+                            "domain" : "isoCurrencyMap"
+                        }
+                    }
+                },
+                "whenIssuedFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeWhenIssuedFlagMap"
+                        }
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "xrfAdditionalTypesMap"
+                        }
+                    }
+                },
+                "rduSecurityType" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "Regular"
+                        }
+                    }
+                }
+            }
+        ],
+        "totalExpenseRatio" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "valoren" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "votingRightsFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "4",
+                    "domain" : "EquitiesVotingRightsMap"
+                }
+            }
+        },
+        "votingRightsPerShare" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "wkn" : {
+            "FEED" : {
+                "value" : "A2PAWU"
+            }
+        },
+        "openCloseEndIndicator" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "issueDate" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-10-14T18:19:56.841Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

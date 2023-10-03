@@ -1,0 +1,92 @@
+{
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "instrument" : {
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "269037664"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "BondIssueStatusMap"
+                }
+            }
+        },
+        "callRedemptions" : [ 
+            {
+                "callSchedules" : [ 
+                    {
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2019-09-26"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("105")
+                            }
+                        }
+                    },
+					{
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2017-12-21"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("985")
+                            }
+                        }
+                    }
+                ],
+                "callId" : {
+                    "FEED" : {
+                        "value" : "269663204"
+                    }
+                },
+                "callStartDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2019-09-25T09:30:00.000Z")
+                    }
+                }
+            },
+			 {
+                "callSchedules" : [ 
+					{
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2027-12-21"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("543")
+                            }
+                        }
+                    }
+                ],
+                "callId" : {
+                    "FEED" : {
+                        "value" : "370774315"
+                    }
+                },
+                "callStartDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2021-07-07T09:30:00.000Z")
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

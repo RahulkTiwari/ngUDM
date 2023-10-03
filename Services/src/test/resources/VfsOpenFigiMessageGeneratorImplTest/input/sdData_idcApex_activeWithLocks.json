@@ -1,0 +1,388 @@
+{
+    "_id" : ObjectId("6409c8537a05c55f08668912"),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "version" : NumberLong(7),
+    "instrument" : {
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "cf7ea64b-9dee-4ff3-9aa0-801b56765fc4"
+            }
+        },
+        "insRawDataId" : {
+            "FEED" : {
+                "value" : "6409c84c7a05c55f08668910"
+            }
+        },
+        "instrumentLegalEntityRelations" : [
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "6a147e23-8532-4371-b0af-ff28cf189add",
+                            "documentId" : ObjectId("6409c84f7a05c55f08668911")
+                        }
+                    }
+                },
+                "refData" : {
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "7922819"
+                        }
+                    },
+                    "audit" : [
+
+                    ]
+                }
+            }
+        ],
+        "instrumentRelations" : [
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+
+                    }
+                },
+                "refData" : {
+                    "securities" : [
+                        {
+                            "securitySourceUniqueId" : {
+                                "FEED" : {
+                                    "errorCode" : NumberInt(103)
+                                }
+                            },
+                            "exchangeTicker" : {
+                                "FEED" : {
+                                    "errorCode" : NumberInt(103)
+                                }
+                            },
+                            "sedol" : {
+                                "FEED" : {
+                                    "errorCode" : NumberInt(103)
+                                },
+                                "RDU":{
+                                	"value":"ABC.XYZ"
+                                }
+                            },
+                            "audit" : [
+
+                            ]
+                        }
+                    ],
+                    "audit" : [
+
+                    ]
+                },
+                "lookupLevel" : {
+                    "RDU" : {
+
+                    }
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "192427363"
+            }
+        },
+        "securities" : [
+            {
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "192420894"
+                    }
+                },
+                "rduSecurityType" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "Regular"
+                        }
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XNYS",
+                            "domain" : "isoMicMap"
+                        }
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "errorCode" : NumberInt(103)
+                    }
+                },
+                "listingStatus" : {
+                    "FEED" : {
+                        "value" : "Inactive"
+                    }
+                },
+                "marginAccountEligibilityFlag" : {
+                    "FEED" : {
+                        "errorCode" : NumberInt(103)
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    },
+                    "ENRICHED":{
+                    	"value":{
+                    		"normalizedValue":"A"
+                    	}
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "value" : "BK1WN11"
+                    },
+                    "RDU":{
+                        "value":"ABC.XYZ"
+                     }
+                },
+                "shHkStockConnectEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XNYS",
+                            "domain" : "shHkStockConnectEligibleFlagMap"
+                        }
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "errorCode" : NumberInt(103)
+                    }
+                },
+                "tradeCountryCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "DE",
+                            "domain" : "isoCountryMap"
+                        }
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "USD",
+                            "domain" : "isoCurrencyMap"
+                        }
+                    }
+                },
+                "whenIssuedFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "5",
+                            "domain" : "ListingTradingStatusTypeWhenIssuedFlagMap"
+                        }
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "normalizedValue" : "Default"
+                        }
+                    }
+                },
+            }
+        ],
+        "bearerFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "2",
+                    "domain" : "InstrumentFormTypeBearerFlagMap"
+                }
+            }
+        },
+        "belgianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "bookEntryFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "2",
+                    "domain" : "InstrumentFormTypeBookEntryFlagMap"
+                }
+            }
+        },
+        "cfiCode2015" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "cins" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "commonCode" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "currentAmountOutstanding" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "currentNominalAmount" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "currentNominalCurrencyCode" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "currentSecuritiesOutstanding" : {
+            "FEED" : {
+                "value" : NumberDecimal("2500000")
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "danishInstrumentId" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "dutchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "fisn" : {
+            "FEED" : {
+                "value" : "C/W 20/09/19(SMA SO)EUR32"
+            }
+        },
+        "fttFlag" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "BondIssueStatusMap"
+                }
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "10",
+                    "domain" : "ApexAssetTypeMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "DN0455281065"
+            }
+        },
+        "issueCountryCode" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "issueDate" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "japanQuickId" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "legalFormType" : {
+            "FEED" : {
+                "value" : "Bearer"
+            }
+        },
+        "nameLong" : {
+            "FEED" : {
+                "value" : "C/W 20/09/19(SMA SOLAR TE)EUR32"
+            }
+        },
+        "nameShort" : {
+            "FEED" : {
+                "value" : "C/W 20/09/19(SMA SO)EUR32"
+            }
+        },
+        "primaryExchangeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "XNYS",
+                    "domain" : "isoMicMap"
+                }
+            }
+        },
+        "privatePlacementFlag" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+        "putCallIndicator" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "EntitlementTypeCallPutMap"
+                }
+            }
+        },
+        "registeredFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "2",
+                    "domain" : "InstrumentFormTypeRegisteredFlagMap"
+                }
+            }
+        },
+        "regSFlag" : {
+            "FEED" : {
+                "errorCode" : NumberInt(103)
+            }
+        },
+    },
+    "_class" : "com.smartstreamrdu.persistence.domain.SdData"
+}
+;

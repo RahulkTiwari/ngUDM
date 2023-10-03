@@ -1,0 +1,215 @@
+{
+    "_id" : ObjectId("5e21a33607b9572da66a7c53"),
+    "status" : {
+        "RDU" : {
+            "value" : "A"
+        }
+    },
+    "code" : {
+        "RDU" : {
+            "value" : "XFRA"
+        }
+    },
+    "name" : {
+        "RDU" : {
+            "value" : "DEUTSCHE BOERSE AG"
+        }
+    },
+    "operatingExchangeCode" : {
+        "RDU" : {
+            "value" : "XFRA"
+        }
+    },
+    "countryCode" : {
+        "RDU" : {
+            "value" : "DE"
+        }
+    },
+    "exchangeCodeSource" : {
+        "RDU" : {
+            "value" : "ISO 10383-Active"
+        }
+    },
+    "mic" : {
+        "RDU" : {
+            "value" : "XFRA"
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-01-17T12:07:42.386Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    },
+    "version" : NumberLong(0)
+}
+;
+{
+    "_id" : ObjectId("5e21a33707b9572da66a7fe9"),
+    "status" : {
+        "RDU" : {
+            "value" : "A"
+        }
+    },
+    "code" : {
+        "RDU" : {
+            "value" : "XDBV"
+        }
+    },
+    "name" : {
+        "RDU" : {
+            "value" : "DEUTSCHE BOERSE AG - VOLATILITY INDICES"
+        }
+    },
+    "operatingExchangeCode" : {
+        "RDU" : {
+            "value" : "XFRA"
+        }
+    },
+    "countryCode" : {
+        "RDU" : {
+            "value" : "DE"
+        }
+    },
+    "matchingGroupExchangeCode" : {
+        "RDU" : {
+            "value" : "XFRA"
+        }
+    },
+    "exchangeCodeSource" : {
+        "RDU" : {
+            "value" : "ISO 10383-Active"
+        }
+    },
+    "mic" : {
+        "RDU" : {
+            "value" : "XDBV"
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-01-17T12:07:42.401Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    },
+    "version" : NumberLong(0)
+}
+;
+{
+    "_id" : ObjectId("5e21a33707b9572da66a7feb"),
+    "status" : {
+        "RDU" : {
+            "value" : "A"
+        }
+    },
+    "code" : {
+        "RDU" : {
+            "value" : "XDBC"
+        }
+    },
+    "name" : {
+        "RDU" : {
+            "value" : "DEUTSCHE BOERSE AG - CUSTOMIZED INDICES"
+        }
+    },
+    "operatingExchangeCode" : {
+        "RDU" : {
+            "value" : "XFRA"
+        }
+    },
+    "countryCode" : {
+        "RDU" : {
+            "value" : "DE"
+        }
+    },
+    "matchingGroupExchangeCode" : {
+        "RDU" : {
+            "value" : "XFRA"
+        }
+    },
+    "exchangeCodeSource" : {
+        "RDU" : {
+            "value" : "ISO 10383-Active"
+        }
+    },
+    "mic" : {
+        "RDU" : {
+            "value" : "XDBC"
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-01-17T12:07:42.401Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    },
+    "version" : NumberLong(0)
+}
+;
+{
+    "_id" : ObjectId("5e21a33807b9572da66a85cd"),
+    "status" : {
+        "RDU" : {
+            "value" : "A"
+        }
+    },
+    "code" : {
+        "RDU" : {
+            "value" : "FRAA"
+        }
+    },
+    "name" : {
+        "RDU" : {
+            "value" : "BOERSE FRANKFURT - REGULIERTER MARKT"
+        }
+    },
+    "operatingExchangeCode" : {
+        "RDU" : {
+            "value" : "XFRA"
+        }
+    },
+    "countryCode" : {
+        "RDU" : {
+            "value" : "DE"
+        }
+    },
+    "matchingGroupExchangeCode" : {
+        "RDU" : {
+            "value" : "XFRA"
+        }
+    },
+    "exchangeCodeSource" : {
+        "RDU" : {
+            "value" : "ISO 10383-Active"
+        }
+    },
+    "mic" : {
+        "RDU" : {
+            "value" : "FRAA"
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-01-17T12:07:42.428Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    },
+    "version" : NumberLong(0)
+}
+;

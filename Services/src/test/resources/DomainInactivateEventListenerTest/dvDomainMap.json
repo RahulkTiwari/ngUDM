@@ -1,0 +1,91 @@
+{
+    "_id" : ObjectId("5e3aa85b8166e045a20a5d1b"),
+    "version" : NumberLong(0),
+    "__level" : "DV_DOMAIN_MAP",
+    "rduDomain" : {
+        "RDU" : {
+            "value" : "currencyCodes"
+        }
+    },
+    "normalizedValue" : {
+        "RDU" : {
+            "value" : "AED"
+        }
+    },
+    "vendorMappings" : [ 
+        {
+            "domainName" : {
+                "RDU" : {
+                    "value" : "currencyCodesMap"
+                }
+            },
+            "domainSource" : {
+                "RDU" : {
+                    "value" : "trds"
+                }
+            },
+            "domainValue" : {
+                "RDU" : {
+                    "value" : {
+                        "val" : "Dirham"
+                    }
+                }
+            },
+            "status" : {
+                "RDU" : {
+                    "value" : "A"
+                }
+            }
+        }, 
+        {
+            "domainName" : {
+                "RDU" : {
+                    "value" : "currencyMap"
+                }
+            },
+            "domainSource" : {
+                "RDU" : {
+                    "value" : "figi"
+                }
+            },
+            "domainValue" : {
+                "RDU" : {
+                    "value" : {
+                        "val" : "UAE Dirham"
+                    }
+                }
+            },
+            "status" : {
+                "RDU" : {
+                    "value" : "A"
+                }
+            }
+        }, 
+        {
+            "domainName" : {
+                "RDU" : {
+                    "value" : "currencyCodesMap"
+                }
+            },
+            "domainSource" : {
+                "RDU" : {
+                    "value" : "trds"
+                }
+            },
+            "domainValue" : {
+                "RDU" : {
+                    "value" : {
+                        "val" : "Dir"
+                    }
+                }
+            },
+            "status" : {
+                "RDU" : {
+                    "value" : "I"
+                }
+            }
+        }
+    ],
+    "_class" : "com.smartstreamrdu.domain.DvDomainMap"
+}
+;

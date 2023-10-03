@@ -1,0 +1,21 @@
+{
+	"originalRequest" : {
+		"sedol" : "6804541",
+		"tradeCurrencyCode" : "JPY",
+		"exchangeCode" : "XJPX"
+	},
+	"primarySourceReferenceId" : {
+		"objectId" : "1",
+		"documentId" : "64355bce5d24161a19d88e4a"
+	},
+	"status" : "S",
+	"openFigiIds" : [ "BBG000BGMT03" ],
+	"successfulRequest" : "{\"idType\":\"ID_SEDOL\",\"idValue\":\"6804541\",\"micCode\":\"XTKS\"}",
+	"dataSource" : "trdse",
+	"insDate" : ISODate("2023-04-11T18:40:30.437+05:30"),
+	"updDate" : ISODate("2023-04-11T18:40:30.437+05:30"),
+	"retriesAttempted" : NumberLong("0"),
+	"version" : NumberLong("0"),
+	"_class" : "com.smartstreamrdu.persistence.domain.OpenFigiRequestMetrics"
+}
+;

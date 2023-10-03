@@ -1,0 +1,143 @@
+{
+    "_id" : ObjectId("619dddd03d686e25c2231511"),
+    "version" : NumberLong(12),
+    "docType" : {
+        "RDU" : {
+            "value" : "RDU"
+        }
+    },
+    "instrument" : {
+        "securities" : [ 
+            {
+                "securityRelations" : [ 
+                    {
+                        "relationType" : {
+                            "RDU" : {
+                                "value" : "IVO"
+                            }
+                        },
+                        "referenceId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "RDUNSE000000001664",
+                                    "documentId" : "5e2012fb21ec0916e88bb9c5"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "user" : "",
+                        "program" : "NG-EquityWeb",
+                        "updateDate" : ISODate("2021-11-24T06:38:08.824Z")
+                    }
+                ]
+            }, 
+            {
+                "securityRelations" : [ 
+                    {
+                        "relationType" : {
+                            "RDU" : {
+                                "value" : "IVO"
+                            }
+                        },
+                        "referenceId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "RDUNSE000000009176",
+                                    "documentId" : "5e2012fb21ec0916e88bb9c5"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "user" : "",
+                        "program" : "NG-EquityWeb",
+                        "updateDate" : ISODate("2021-11-29T13:03:31.560Z")
+                    }, 
+                    {
+                        "auditIndex" : 1,
+                        "user" : "",
+                        "program" : "NG-EquityWeb",
+                        "updateDate" : ISODate("2021-11-29T13:10:44.938Z")
+                    }, 
+                    {
+                        "auditIndex" : 2,
+                        "user" : "",
+                        "program" : "NG-EquityWeb",
+                        "updateDate" : ISODate("2021-11-29T13:17:03.529Z")
+                    }
+                ],
+                "ticker" : {
+                    "RDU" : {
+                        "value" : "MKG_test3"
+                    }
+                }
+            }
+        ],
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "user" : "",
+                "program" : "NG-EquityWeb",
+                "updateDate" : ISODate("2021-11-24T06:38:08.824Z")
+            }, 
+            {
+                "auditIndex" : 1,
+                "user" : "",
+                "program" : "NG-EquityWeb",
+                "updateDate" : ISODate("2021-11-24T06:59:04.112Z")
+            }, 
+            {
+                "auditIndex" : 2,
+                "user" : "",
+                "program" : "NG-EquityWeb",
+                "updateDate" : ISODate("2021-11-29T13:03:31.560Z")
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "RDU" : {
+                        "value" : "IVO"
+                    }
+                },
+                "referenceId" : {
+                    "RDU" : {
+                        "value" : {
+                            "objectId" : "RDUNIN000000001665",
+                            "documentId" : "5e2012fb21ec0916e88bb9c5"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-11-24T06:38:08.824Z")
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-11-30T05:36:06.248Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.persistence.domain.SdIvo"
+}
+;

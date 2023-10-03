@@ -1,0 +1,56 @@
+{
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "3ab968c9-3f8c-481a-9b2a-af058ca6eccc"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "SEC_1"
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "1234"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "2",
+                            "domain" :"tradingStatusMap"
+                        }
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "3ab968c9-3f8c-481a-9b2a-af058ca6eccc"
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

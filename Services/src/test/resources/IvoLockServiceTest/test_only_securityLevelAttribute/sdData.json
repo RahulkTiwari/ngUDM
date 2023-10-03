@@ -1,0 +1,62 @@
+{	
+	"_id":ObjectId("5c6d541775ecec105e4243fe"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "06066a00-3ec5-446a-a333-e222349602b6"
+            }
+        },
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "0x00100b000923dda7"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1"
+                }
+            }
+        },
+        "securities" : [ 
+            {
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "ticker" : {
+                    "RDU" : {
+                        "value" : "BIT"
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "0x00100b001434b85a"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1"
+                        }
+                    }
+                },
+                "ric" : {
+                    "RDU" : {
+                        "value" : "BIT.NZ"
+                    }
+                }
+            }
+        ]
+        }
+}
+;

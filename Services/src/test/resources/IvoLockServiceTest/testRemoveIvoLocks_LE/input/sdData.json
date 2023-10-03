@@ -1,0 +1,60 @@
+{
+   "_id":ObjectId("5c6d540975ecec105e4243aa"),
+    "version" : NumberLong(1),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "legalEntity" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "updateDate" : ISODate("2019-09-27T12:40:14.032Z")
+            }
+        ],
+        "_legalEntityId" : {
+            "FEED" : {
+                "value" : "4a0fbf48-0d94-4bd8-a81e-4a7a7ce4d54b"
+            }
+        },
+        "legalEntityStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "entityStatusMap"
+                }
+            }
+        },
+        "gicsIndustryCode" : {
+            "FEED" : {
+                "value" : "402030"
+            },
+            "RDU" : {
+                "value" : "402040"
+            }
+        },
+        "legalEntityName" : {
+            "FEED" : {
+                "value" : "Kingfish Ltd"
+            },
+            "RDU" : {
+                "value" : "Kingfish Limited"
+            }
+        },
+        "legalEntitySourceUniqueId" : {
+            "FEED" : {
+                "value" : "100313105"
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2019-09-27T07:47:08.582Z")
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

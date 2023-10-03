@@ -1,0 +1,681 @@
+{
+    "_id" : ObjectId("5e20200a09a36d4855b07551"),
+    "version" : NumberLong(28),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "46520b5e-7ea9-4631-8310-7c8ee2bb7dd8"
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "GDR",
+                    "domain" : "trcsMap"
+                }
+            }
+        },
+        "australiaInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "austrianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "belgianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "brazilianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cfiCode" : {
+            "FEED" : {
+                "value" : "EDSXFR"
+            }
+        },
+        "cins" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "commonCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cumulativeFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "value" : "37949E105"
+            }
+        },
+        "depositaryReceiptTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "GDR",
+                    "domain" : "trcsMap"
+                }
+            }
+        },
+        "depositaryReceiptsPerShare" : {
+            "FEED" : {
+                "value" : NumberDecimal("1")
+            }
+        },
+        "dutchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fisn" : {
+            "FEED" : {
+                "value" : "GLOBALTRANS INV/S GDR 144A"
+            }
+        },
+        "frenchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fttFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fundType" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "hongKongInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "c86c4827-80d9-44e2-a6df-3b65c577d976",
+                            "documentId" : ObjectId("5e201ffc430d9c29dc52a4e8")
+                        }
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "105679857"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "1",
+                            "documentId" : ObjectId("5e202393888c557a94e640fd")
+                        }
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "securities" : [ 
+                        {
+                            "audit" : [],
+                            "ric" : {
+                                "FEED" : {
+                                    "value" : "GLOTR.UNL"
+                                }
+                            },
+                            "trQuoteId" : {
+                                "FEED" : {
+                                    "value" : "0x00100b0007637321"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "0x0003f800b8805291"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "US37949E1055"
+            }
+        },
+        "japanSiccId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "kazakhstanInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "malaysiaInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "nameLong" : {
+            "FEED" : {
+                "value" : "Globaltrans Investment GDR 144A"
+            }
+        },
+        "primaryExchangeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "EXPM",
+                    "domain" : "marketSegmentMicMap"
+                }
+            }
+        },
+        "rule13FSecuritiesFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "rule144AFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "Y",
+                    "domain" : "flagMap"
+                }
+            }
+        },
+        "securities" : [ 
+            {
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5e201ffb888c557a94e593a6"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "value" : "38KH"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "ECHO",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "segmentMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "ECHO",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "operatingMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "ECHO",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "value" : "38KH"
+                    }
+                },
+                "trConsolidatedRic" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2012-07-10T00:00:00.000Z")
+                    }
+                },
+                "listingStatus" : {
+                    "FEED" : {
+                        "value" : "LIS"
+                    }
+                },
+                "numberOfDaysToSettle" : {
+                    "FEED" : {
+                        "value" : NumberLong(2)
+                    }
+                },
+                "officialPlaceOfListingMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XLON",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "primaryRicFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ptmLevyEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ric" : {
+                    "FEED" : {
+                        "value" : "US37949E1055=TRE"
+                    }
+                },
+                "roundLotSize" : {
+                    "FEED" : {
+                        "value" : NumberLong(1)
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "0x0003f8039f01e187"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "value" : "B2QTGR3"
+                    }
+                },
+                "shHkStockConnectEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "stampDutyReserveTaxFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "suspendedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "0x0003f8039f01e187"
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "USD",
+                            "domain" : "currencyCodesMap"
+                        }
+                    }
+                },
+                "tradingSymbol" : {
+                    "FEED" : {
+                        "value" : "38532"
+                    }
+                },
+                "whenDistributedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "whenIssuedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "xrfAdditionalTypesMap"
+                        }
+                    }
+                },
+                "periodicCallAuctionFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "vendorExchangeCode" : {
+                    "FEED" : {
+                        "value" : "LSE"
+                    }
+                }
+            }, 
+            {
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "2"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5e2054ab430d9c29dc5c0d03"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "value" : "GLTIL"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "EXPM",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "segmentMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "EXPM",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "operatingMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "OTCM",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "value" : "GLTIL"
+                    }
+                },
+                "trConsolidatedRic" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2008-04-08T00:00:00.000Z")
+                    }
+                },
+                "listingStatus" : {
+                    "FEED" : {
+                        "value" : "LIS"
+                    }
+                },
+                "numberOfDaysToSettle" : {
+                    "FEED" : {
+                        "value" : NumberLong(3)
+                    }
+                },
+                "officialPlaceOfListingMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "OTCM",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "primaryRicFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Y",
+                            "domain" : "flagMap"
+                        }
+                    }
+                },
+                "ptmLevyEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ric" : {
+                    "FEED" : {
+                        "value" : "GLTIL.PK"
+                    }
+                },
+                "roundLotSize" : {
+                    "FEED" : {
+                        "value" : NumberLong(100)
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "0x0003f800b88066a5"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "value" : "B2QTJ18"
+                    }
+                },
+                "shHkStockConnectEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "stampDutyReserveTaxFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "suspendedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "0x0003f800b88066a5"
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "USD",
+                            "domain" : "currencyCodesMap"
+                        }
+                    }
+                },
+                "tradingSymbol" : {
+                    "FEED" : {
+                        "value" : "GLTIL"
+                    }
+                },
+                "whenDistributedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "whenIssuedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "xrfAdditionalTypesMap"
+                        }
+                    }
+                },
+                "periodicCallAuctionFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "vendorExchangeCode" : {
+                    "FEED" : {
+                        "value" : "OTC"
+                    }
+                }
+            }
+        ],
+        "shareClass" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "sharesPerDepositaryReceipt" : {
+            "FEED" : {
+                "value" : NumberDecimal("1")
+            }
+        },
+        "singaporeInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "taiwanInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "trAssetId" : {
+            "FEED" : {
+                "value" : "0x0003f800b8805291"
+            }
+        },
+        "trPrimaryIssueLevelCode" : {
+            "FEED" : {
+                "value" : "106807659"
+            }
+        },
+        "underlyingPerWarrant" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "valoren" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "warrantsPerUnderlying" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "wkn" : {
+            "FEED" : {
+                "value" : "A0Q4FZ"
+            }
+        },
+        "openCloseEndIndicator" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "countryOfTaxationCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "CYP",
+                    "domain" : "countryOfTaxationMap"
+                }
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-01-16T08:34:18.478Z")
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-04-05T19:22:23.881Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

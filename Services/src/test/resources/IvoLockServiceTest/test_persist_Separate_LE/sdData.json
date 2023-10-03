@@ -1,0 +1,34 @@
+{
+	"_id":ObjectId("5c6d540975ecec105e4243aa"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "legalEntity" : {
+        "_legalEntityId" : {
+            "FEED" : {
+                "value" : "4a0fbf48-0d94-4bd8-a81e-4a7a7ce4d54b"
+            }
+        },
+        "gicsIndustryCode" : {
+            "RDU" : {
+                "value" : "402040"
+            }
+        },
+        "legalEntityName" : {
+            "RDU" : {
+                "value" : "Kingfish Limited"
+            }
+        },
+        "legalEntitySourceUniqueId" : {
+            "FEED" : {
+                "value" : "100313105"
+            }
+        }
+    }
+}
+;

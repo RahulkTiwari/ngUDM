@@ -1,0 +1,416 @@
+{
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-06-29T15:51:34.298Z"),
+                "fileName" : "E:\\UDM_5.0_Equities\\CucumberWithJava/E:\\UDM_5.0_Equities\\CucumberWithJava/src/test/resources/testdata/DIS/ProformaInactivation\\idc_insert.xml"
+            }
+        ],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "4ac44b9a-b458-4498-948d-57d5485bd6b0"
+            }
+        },
+        "insRawDataId" : {
+            "FEED" : {
+                "value" : "618121620d08ce70f411c369"
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "InstrumentTypeMap"
+                }
+            }
+        },
+        "belgianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cins" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "commonCode" : {
+            "FEED" : {
+                "value" : "132823383"
+            }
+        },
+        "issueCountryCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "US",
+                    "domain" : "isoCountryMap"
+                }
+            }
+        },
+        "currentAmountOutstanding" : {
+            "FEED" : {
+                "value" : NumberDecimal("198079110")
+            }
+        },
+        "currentSecuritiesOutstandingDate" : {
+            "FEED" : {
+                "value" : ISODate("2015-12-07T00:00:00.000Z")
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "value" : "090055203"
+            }
+        },
+        "danishInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "depositaryReceiptTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "DepositoryReceiptTypeMap"
+                }
+            }
+        },
+        "depositaryReceiptsPerShare" : {
+            "FEED" : {
+                "value" : NumberDecimal("0.5")
+            }
+        },
+        "dutchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fisn" : {
+            "FEED" : {
+                "value" : "UNSP ADR EA REPR 2 ORD(POST"
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "abdd19b1-f2f4-4c5f-90c1-95fa279198f9",
+                            "documentId" : ObjectId("5efa0de283cffb2c5e71499b")
+                        }
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "22182165"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {}
+                },
+                "refData" : {
+                    "audit" : [],
+                    "cusip" : {
+                        "FEED" : {
+                            "errorCode" : 103
+                        }
+                    },
+                    "instrumentSourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "190757971"
+                        }
+                    },
+                    "isin" : {
+                        "FEED" : {
+                            "value" : "AU000000BBG6"
+                        }
+                    },
+                    "securities" : [ 
+                        {
+                            "audit" : [],
+                            "exchangeTicker" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            },
+                            "securitySourceUniqueId" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            },
+                            "sedol" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "81951192"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "BondIssueStatusMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "JP3221800000"
+            }
+        },
+        "japanQuickId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "legalFormType" : {
+            "FEED" : {
+                "value" : "1"
+            }
+        },
+        "nameLong" : {
+            "FEED" : {
+                "value" : "UNSP ADR EACH REPR 2 ORD (POST REV SPLT)"
+            }
+        },
+        "nameShort" : {
+            "FEED" : {
+                "value" : "UNSP ADR EA REPR 2 ORD(POST"
+            }
+        },
+        "putCallIndicator" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "EntitlementTypeCallPutMap"
+                }
+            }
+        },
+        "regSFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "rule144AFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-06-29T15:51:34.298Z"),
+                        "fileName" : "E:\\UDM_5.0_Equities\\CucumberWithJava/E:\\UDM_5.0_Equities\\CucumberWithJava/src/test/resources/testdata/DIS/ProformaInactivation\\idc_insert.xml"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "secLastProcessedDate" : {
+                    "ENRICHED" : {
+                        "value" : ISODate("2020-06-29T15:51:34.298Z")
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XTKS",
+                            "domain" : "isoMicMap"
+                        }
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "value" : "BLLAY"
+                    }
+                },
+                "listingStatus" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "marginAccountEligibilityFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "false",
+                            "domain" : "BooleanMap"
+                        }
+                    }
+                },
+                "ptmLevyEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "78",
+                            "domain" : "PTMLevyTypeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "81958185"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeMap"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "value" : "6484750"
+                    }
+                },
+                "shHkStockConnectEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "shHkStockConnectEligibleFlagMap"
+                        }
+                    }
+                },
+                "stampDutyReserveTaxFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "stampDutyReserveTaxFlagMap"
+                        }
+                    }
+                },
+                "suspendedFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeSuspendedFlagMap"
+                        }
+                    }
+                },
+                "tradeCountryCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "US",
+                            "domain" : "isoCountryMap"
+                        }
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "USD",
+                            "domain" : "isoCurrencyMap"
+                        }
+                    }
+                },
+                "whenIssuedFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "ListingTradingStatusTypeWhenIssuedFlagMap"
+                        }
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "xrfAdditionalTypesMap"
+                        }
+                    }
+                }
+            }
+        ],
+        "sharesPerDepositaryReceipt" : {
+            "FEED" : {
+                "value" : NumberDecimal("2")
+            }
+        },
+        "valoren" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "votingRightsFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "4",
+                    "domain" : "EquitiesVotingRightsMap"
+                }
+            }
+        },
+        "warrantPayoffType" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "EntitlementTypeExoticMap"
+                }
+            }
+        },
+        "wkn" : {
+            "FEED" : {
+                "value" : "A2AA6S"
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-06-29T15:51:34.298Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

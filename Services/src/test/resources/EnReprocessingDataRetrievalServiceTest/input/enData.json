@@ -1,0 +1,1436 @@
+{
+    "_id" : ObjectId("60521b00d6afe157681c90ef"),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "rduEns"
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-03-17T15:06:40.622Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-03-17T15:07:20.329Z")
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "enRawDataId" : {
+        "FEED" : {
+            "value" : "60521a6bd6afe157681c90eb"
+        }
+    },
+    "eventSourceUniqueId" : {
+        "FEED" : {
+            "value" : "ABC.1.1234"
+        }
+    },
+    "underlyings" : [ 
+        {
+            "instrumentCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(1)
+                }
+            },
+            "isin" : {
+                "FEED" : {
+                    "value" : "HK1111111111"
+                }
+            },
+            "cusip" : {
+                "FEED" : {
+                    "value" : "111111111"
+                }
+            },
+            "nameLong" : {
+                "FEED" : {
+                    "value" : "New World Development Company Limited"
+                }
+            },
+            "exchangeTicker" : {
+                "FEED" : {
+                    "value" : "NWDCL"
+                }
+            },
+            "roundLotSize" : {
+                "FEED" : {
+                    "value" : NumberLong(100)
+                }
+            },
+            "sedol" : {
+                "FEED" : {
+                    "value" : "1111111"
+                }
+            },
+            "ticker" : {
+                "FEED" : {
+                    "value" : "NWDCLo"
+                }
+            },
+            "tradeCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "Hk$",
+                        "val2" : "HKFE",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "tradingSymbol" : {
+                "FEED" : {
+                    "value" : "NWDCLLo"
+                }
+            }
+        }, 
+        {
+            "instrumentCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(2)
+                }
+            },
+            "isin" : {
+                "FEED" : {
+                    "value" : "HK2222222222"
+                }
+            },
+            "cusip" : {
+                "FEED" : {
+                    "value" : "222222222"
+                }
+            },
+            "nameLong" : {
+                "FEED" : {
+                    "value" : "New World Development Company Limited Class B"
+                }
+            },
+            "exchangeTicker" : {
+                "FEED" : {
+                    "value" : "NWDCLB"
+                }
+            },
+            "roundLotSize" : {
+                "FEED" : {
+                    "value" : NumberLong(10)
+                }
+            },
+            "sedol" : {
+                "FEED" : {
+                    "value" : "2222222"
+                }
+            },
+            "ticker" : {
+                "FEED" : {
+                    "value" : "NWDCLb"
+                }
+            },
+            "tradeCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "HK$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "tradingSymbol" : {
+                "FEED" : {
+                    "value" : "NWDCLBb"
+                }
+            }
+        }
+    ],
+    "newUnderlyings" : [ 
+        {
+            "newInstrumentCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(1)
+                }
+            },
+            "newIsin" : {
+                "FEED" : {
+                    "value" : "HK3333333333"
+                }
+            },
+            "newCouponRate" : {
+                "FEED" : {
+                    "value" : NumberDecimal("5.5")
+                }
+            },
+            "newCurrentAmountOutstanding" : {
+                "FEED" : {
+                    "value" : NumberDecimal("10000")
+                }
+            },
+            "newCurrentNominalCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newCusip" : {
+                "FEED" : {
+                    "value" : "333333333"
+                }
+            },
+            "newNameLong" : {
+                "FEED" : {
+                    "value" : "New Global Development Company Limited"
+                }
+            },
+            "newMaturityDate" : {
+                "FEED" : {
+                    "value" : ISODate("2020-12-05T18:30:00.000Z")
+                }
+            },
+            "newQuantity" : {
+                "FEED" : {
+                    "value" : NumberDecimal("120")
+                }
+            },
+            "newQuantityCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "EUR",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newAllocationPercentage" : {
+                "FEED" : {
+                    "value" : NumberDecimal("125")
+                }
+            },
+            "newExchangeTicker" : {
+                "FEED" : {
+                    "value" : "NGDCLL"
+                }
+            },
+            "newRoundLotSize" : {
+                "FEED" : {
+                    "errorCode" : 104
+                }
+            },
+            "newSedol" : {
+                "FEED" : {
+                    "value" : "TBA"
+                }
+            },
+            "newTicker" : {
+                "FEED" : {
+                    "value" : "NGDCLLp"
+                }
+            },
+            "newTradeCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newTradingSymbol" : {
+                "FEED" : {
+                    "value" : "NGDCLLp"
+                }
+            }
+        }, 
+        {
+            "newInstrumentCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(2)
+                }
+            },
+            "newIsin" : {
+                "FEED" : {
+                    "value" : "HK4444444444"
+                }
+            },
+            "newCouponRate" : {
+                "FEED" : {
+                    "value" : NumberDecimal("5.7")
+                }
+            },
+            "newCurrentAmountOutstanding" : {
+                "FEED" : {
+                    "value" : NumberDecimal("100000")
+                }
+            },
+            "newCurrentNominalCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "Eur",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newCusip" : {
+                "FEED" : {
+                    "value" : "444444444"
+                }
+            },
+            "newNameLong" : {
+                "FEED" : {
+                    "value" : "New Global Development Company Limited Class B"
+                }
+            },
+            "newMaturityDate" : {
+                "FEED" : {
+                    "value" : ISODate("2021-12-05T18:30:00.000Z")
+                }
+            },
+            "newQuantity" : {
+                "FEED" : {
+                    "value" : NumberDecimal("140")
+                }
+            },
+            "newQuantityCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newAllocationPercentage" : {
+                "FEED" : {
+                    "value" : NumberDecimal("1250")
+                }
+            },
+            "newExchangeTicker" : {
+                "FEED" : {
+                    "value" : "NGDCLLB"
+                }
+            },
+            "newRoundLotSize" : {
+                "FEED" : {
+                    "value" : NumberLong(200)
+                }
+            },
+            "newSedol" : {
+                "FEED" : {
+                    "value" : "4444444"
+                }
+            },
+            "newTicker" : {
+                "FEED" : {
+                    "value" : "NGDCLLLb"
+                }
+            },
+            "newTradeCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newTradingSymbol" : {
+                "FEED" : {
+                    "value" : "NGDCLLLb"
+                }
+            }
+        }
+    ],
+    "eventPreviousReferenceIds" : [ 
+        {
+            "exchangeReferenceIdCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(1)
+                }
+            },
+            "exchangePreviousReferenceId" : {
+                "FEED" : {
+                    "value" : "MO/DT/232/20"
+                }
+            }
+        }, 
+        {
+            "exchangeReferenceIdCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(2)
+                }
+            },
+            "exchangePreviousReferenceId" : {
+                "FEED" : {
+                    "value" : "MO/DT/233/20"
+                }
+            }
+        }
+    ],
+    "exchangeCode" : {
+        "FEED" : {
+            "value" : {
+                "val" : "THE STOCK EXCHANGE OF HONG KONG LIMITED",
+                "val2" : "SEHK",
+                "domain" : "exchangeCodeMap"
+            }
+        }
+    },
+    "newExchangeCode" : {
+        "FEED" : {
+            "value" : {
+                "val" : "HONG KONG OPTIONS EXCHANGE LIMITED",
+                "val2" : "SEHK",
+                "domain" : "assetClassificationsMap"
+            }
+        }
+    },
+    "exchangeSourceName" : {
+        "FEED" : {
+            "value" : "SEHK"
+        }
+    },
+    "eventPublishDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-02-15T18:30:00.000Z")
+        }
+    },
+    "eventInsertDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-02-15T18:30:00.000Z")
+        }
+    },
+    "eventType" : {
+        "FEED" : {
+            "value" : {
+                "val" : "ANTICIPATED FURTHER ADJUSTMENT/ANTICIPATED CASH SETTLEMENT",
+                "val2" : "OCC",
+                "domain" : "eventTypeMap"
+            }
+        }
+    },
+    "eventSubject" : {
+        "FEED" : {
+            "value" : "Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of New World Development Company Limited Stock Option Contracts – Share Consolidation"
+        }
+    },
+    "eventSummaryText" : {
+        "FEED" : {
+            "value" : "Participants are requested to note that capital adjustment to the stock option contracts below will be made on the Effective Date of Share Consolidation (“Effective Date”) based on the corporate action announced:"
+        }
+    },
+    "instrumentTypeCode" : {
+        "FEED" : {
+            "value" : {
+                "val" : "STOCK OPTION CONTRACTS",
+                "val2" : "SEHK",
+                "domain" : "assetClassificationsMap"
+            }
+        }
+    },
+    "optionsAffectedFlag" : {
+        "FEED" : {
+            "value" : {
+                "val" : "YES",
+                "domain" : "yesNoFlagMap"
+            }
+        }
+    },
+    "underlyingsChangeFlag" : {
+        "FEED" : {
+            "value" : {
+                "val" : "YES",
+                "domain" : "yesNoFlagMap"
+            }
+        }
+    },
+    "strikePriceChangeFlag" : {
+        "FEED" : {
+            "value" : {
+                "val" : "NO",
+                "domain" : "yesNoFlagMap"
+            }
+        }
+    },
+    "versionChangeFlag" : {
+        "FEED" : {
+            "value" : {
+                "val" : "NO",
+                "domain" : "yesNoFlagMap"
+            }
+        }
+    },
+    "exchangeTicker" : {
+        "FEED" : {
+            "value" : [ 
+                "MWD 20", 
+                "NWD 21"
+            ]
+        }
+    },
+    "exchangePrefix" : {
+        "FEED" : {
+            "value" : "MWD"
+        }
+    },
+    "newExchangePrefix" : {
+        "FEED" : {
+            "value" : "NWA"
+        }
+    },
+    "productName" : {
+        "FEED" : {
+            "value" : "New World Development Company Limited Stock Option Contracts"
+        }
+    },
+    "newProductName" : {
+        "FEED" : {
+            "value" : "New Global Development Company Limited Stock Option Contracts"
+        }
+    },
+    "productIsin" : {
+        "FEED" : {
+            "value" : "HK1234567890"
+        }
+    },
+    "newProductIsin" : {
+        "FEED" : {
+            "value" : "HK0987654321"
+        }
+    },
+    "series" : {
+        "FEED" : {
+            "value" : [ 
+                "December 2020", 
+                "January 2021"
+            ]
+        }
+    },
+    "adjustmentFactor" : {
+        "FEED" : {
+            "value" : NumberDecimal("0.34")
+        }
+    },
+    "adjustmentFactorOperatorType" : {
+        "FEED" : {
+            "value" : {
+                "val" : "x",
+                "val2" : "SEHK",
+                "domain" : "operatorTypesMap"
+            }
+        }
+    },
+    "eventInitialUrl" : {
+        "FEED" : {
+            "value" : "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2020/MO_DT_092_20_e.pdf"
+        }
+    },
+    "exchangeReferenceId" : {
+        "FEED" : {
+            "value" : "MO/DT/092/20"
+        }
+    },
+    "exchangeReferenceCounter" : {
+        "FEED" : {
+            "value" : NumberLong(2)
+        }
+    },
+    "lastTradeDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-12-21T18:30:00.000Z")
+        }
+    },
+    "newLastTradeDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-01-21T18:30:00.000Z")
+        }
+    },
+    "expirationDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-14T18:30:00.000Z")
+        }
+    },
+    "newExpirationDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-14T18:30:00.000Z")
+        }
+    },
+    "event" : {
+        "FEED" : {
+            "value" : [ 
+                "ABC_1.pdf", 
+                "ZYZ_2.pdf"
+            ]
+        }
+    },
+    "lastCumDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-17T18:30:00.000Z")
+        }
+    },
+    "exDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-18T18:30:00.000Z")
+        }
+    },
+    "recordDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-19T18:30:00.000Z")
+        }
+    },
+    "payDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-21T18:30:00.000Z")
+        }
+    },
+    "quantityBefore" : {
+        "FEED" : {
+            "value" : NumberDecimal("4")
+        }
+    },
+    "quantityAfter" : {
+        "FEED" : {
+            "value" : NumberDecimal("1")
+        }
+    },
+    "distributionRatio" : {
+        "FEED" : {
+            "value" : NumberDecimal("1.4")
+        }
+    },
+    "subscriptionPrice" : {
+        "FEED" : {
+            "value" : NumberDecimal("12")
+        }
+    },
+    "subscriptionPriceCurrencyCode" : {
+        "FEED" : {
+            "value" : {
+                "val" : "$",
+                "val2" : "SEHK",
+                "domain" : "currencyCodesMap"
+            }
+        }
+    },
+    "contractSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("100")
+        }
+    },
+    "newContractSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("200")
+        }
+    },
+    "tickSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("1")
+        }
+    },
+    "newTickSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("2")
+        }
+    },
+    "contractMultiplier" : {
+        "FEED" : {
+            "value" : NumberDecimal("10")
+        }
+    },
+    "newContractMultiplier" : {
+        "FEED" : {
+            "value" : NumberDecimal("20")
+        }
+    },
+    "blockTradeMinSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("15000")
+        }
+    },
+    "newBlockTradeMinSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("1200")
+        }
+    },
+    "spotMonthPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("22000")
+        }
+    },
+    "newSpotMonthPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("23000")
+        }
+    },
+    "monthPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("18000")
+        }
+    },
+    "newMonthPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("19000")
+        }
+    },
+    "allMonthsPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("20000")
+        }
+    },
+    "newAllMonthsPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("21000")
+        }
+    },
+    "eventStatus" : {
+        "ENRICHED" : {
+            "value" : {
+                "normalizedValue" : "A"
+            }
+        }
+    },
+    "version" : NumberLong(1),
+    "audit" : [ 
+        {
+            "auditIndex" : 0,
+            "program" : "NG-UDL",
+            "updateDate" : ISODate("2021-03-17T15:06:40.622Z")
+        }, 
+        {
+            "auditIndex" : 1,
+            "program" : "NG-UDL",
+            "updateDate" : ISODate("2021-03-17T15:07:20.329Z")
+        }
+    ],
+    "_class" : "com.smartstreamrdu.domain.EnData"
+}
+;
+{
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "rduEns"
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-03-17T15:06:40.622Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-03-17T15:07:20.329Z")
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "enRawDataId" : {
+        "FEED" : {
+            "value" : "60521a6bd6afe157681c90eb"
+        }
+    },
+    "eventSourceUniqueId" : {
+        "FEED" : {
+            "value" : "ABC.2.1234"
+        }
+    },
+    "underlyings" : [ 
+        {
+            "instrumentCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(1)
+                }
+            },
+            "isin" : {
+                "FEED" : {
+                    "value" : "HK1111111111"
+                }
+            },
+            "cusip" : {
+                "FEED" : {
+                    "value" : "111111111"
+                }
+            },
+            "nameLong" : {
+                "FEED" : {
+                    "value" : "New World Development Company Limited"
+                }
+            },
+            "exchangeTicker" : {
+                "FEED" : {
+                    "value" : "NWDCL"
+                }
+            },
+            "roundLotSize" : {
+                "FEED" : {
+                    "value" : NumberLong(100)
+                }
+            },
+            "sedol" : {
+                "FEED" : {
+                    "value" : "1111111"
+                }
+            },
+            "ticker" : {
+                "FEED" : {
+                    "value" : "NWDCLo"
+                }
+            },
+            "tradeCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "Hk2",
+                        "val2" : "HKFE",
+                        "domain" : "currencyCodesMap"
+                    }
+                },
+                "RDU":{
+                	"value":{
+                		"normalizedValue":"HKFE"
+                	}
+                }
+            },
+            "tradingSymbol" : {
+                "FEED" : {
+                    "value" : "NWDCLLo"
+                }
+            }
+        }, 
+        {
+            "instrumentCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(2)
+                }
+            },
+            "isin" : {
+                "FEED" : {
+                    "value" : "HK2222222222"
+                }
+            },
+            "cusip" : {
+                "FEED" : {
+                    "value" : "222222222"
+                }
+            },
+            "nameLong" : {
+                "FEED" : {
+                    "value" : "New World Development Company Limited Class B"
+                }
+            },
+            "exchangeTicker" : {
+                "FEED" : {
+                    "value" : "NWDCLB"
+                }
+            },
+            "roundLotSize" : {
+                "FEED" : {
+                    "value" : NumberLong(10)
+                }
+            },
+            "sedol" : {
+                "FEED" : {
+                    "value" : "2222222"
+                }
+            },
+            "ticker" : {
+                "FEED" : {
+                    "value" : "NWDCLb"
+                }
+            },
+            "tradeCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "HK$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "tradingSymbol" : {
+                "FEED" : {
+                    "value" : "NWDCLBb"
+                }
+            }
+        }
+    ],
+    "newUnderlyings" : [ 
+        {
+            "newInstrumentCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(1)
+                }
+            },
+            "newIsin" : {
+                "FEED" : {
+                    "value" : "HK3333333333"
+                }
+            },
+            "newCouponRate" : {
+                "FEED" : {
+                    "value" : NumberDecimal("5.5")
+                }
+            },
+            "newCurrentAmountOutstanding" : {
+                "FEED" : {
+                    "value" : NumberDecimal("10000")
+                }
+            },
+            "newCurrentNominalCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newCusip" : {
+                "FEED" : {
+                    "value" : "333333333"
+                }
+            },
+            "newNameLong" : {
+                "FEED" : {
+                    "value" : "New Global Development Company Limited"
+                }
+            },
+            "newMaturityDate" : {
+                "FEED" : {
+                    "value" : ISODate("2020-12-05T18:30:00.000Z")
+                }
+            },
+            "newQuantity" : {
+                "FEED" : {
+                    "value" : NumberDecimal("120")
+                }
+            },
+            "newQuantityCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "EUR",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newAllocationPercentage" : {
+                "FEED" : {
+                    "value" : NumberDecimal("125")
+                }
+            },
+            "newExchangeTicker" : {
+                "FEED" : {
+                    "value" : "NGDCLL"
+                }
+            },
+            "newRoundLotSize" : {
+                "FEED" : {
+                    "errorCode" : 104
+                }
+            },
+            "newSedol" : {
+                "FEED" : {
+                    "value" : "TBA"
+                }
+            },
+            "newTicker" : {
+                "FEED" : {
+                    "value" : "NGDCLLp"
+                }
+            },
+            "newTradeCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newTradingSymbol" : {
+                "FEED" : {
+                    "value" : "NGDCLLp"
+                }
+            }
+        }, 
+        {
+            "newInstrumentCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(2)
+                }
+            },
+            "newIsin" : {
+                "FEED" : {
+                    "value" : "HK4444444444"
+                }
+            },
+            "newCouponRate" : {
+                "FEED" : {
+                    "value" : NumberDecimal("5.7")
+                }
+            },
+            "newCurrentAmountOutstanding" : {
+                "FEED" : {
+                    "value" : NumberDecimal("100000")
+                }
+            },
+            "newCurrentNominalCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "Eur",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newCusip" : {
+                "FEED" : {
+                    "value" : "444444444"
+                }
+            },
+            "newNameLong" : {
+                "FEED" : {
+                    "value" : "New Global Development Company Limited Class B"
+                }
+            },
+            "newMaturityDate" : {
+                "FEED" : {
+                    "value" : ISODate("2021-12-05T18:30:00.000Z")
+                }
+            },
+            "newQuantity" : {
+                "FEED" : {
+                    "value" : NumberDecimal("140")
+                }
+            },
+            "newQuantityCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newAllocationPercentage" : {
+                "FEED" : {
+                    "value" : NumberDecimal("1250")
+                }
+            },
+            "newExchangeTicker" : {
+                "FEED" : {
+                    "value" : "NGDCLLB"
+                }
+            },
+            "newRoundLotSize" : {
+                "FEED" : {
+                    "value" : NumberLong(200)
+                }
+            },
+            "newSedol" : {
+                "FEED" : {
+                    "value" : "4444444"
+                }
+            },
+            "newTicker" : {
+                "FEED" : {
+                    "value" : "NGDCLLLb"
+                }
+            },
+            "newTradeCurrencyCode" : {
+                "FEED" : {
+                    "value" : {
+                        "val" : "$",
+                        "val2" : "SEHK",
+                        "domain" : "currencyCodesMap"
+                    }
+                }
+            },
+            "newTradingSymbol" : {
+                "FEED" : {
+                    "value" : "NGDCLLLb"
+                }
+            }
+        }
+    ],
+    "eventPreviousReferenceIds" : [ 
+        {
+            "exchangeReferenceIdCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(1)
+                }
+            },
+            "exchangePreviousReferenceId" : {
+                "FEED" : {
+                    "value" : "MO/DT/232/20"
+                }
+            }
+        }, 
+        {
+            "exchangeReferenceIdCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(2)
+                }
+            },
+            "exchangePreviousReferenceId" : {
+                "FEED" : {
+                    "value" : "MO/DT/233/20"
+                }
+            }
+        }
+    ],
+    "exchangeCode" : {
+        "FEED" : {
+            "value" : {
+                "val" : "THE STOCK EXCHANGE OF HONG KONG LIMITED",
+                "val2" : "SEHK",
+                "domain" : "exchangeCodeMap"
+            }
+        }
+    },
+    "newExchangeCode" : {
+        "FEED" : {
+            "value" : {
+                "val" : "HONG KONG OPTIONS EXCHANGE LIMITED",
+                "val2" : "SEHK",
+                "domain" : "assetClassificationsMap"
+            }
+        }
+    },
+    "exchangeSourceName" : {
+        "FEED" : {
+            "value" : "SEHK"
+        }
+    },
+    "eventPublishDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-02-15T18:30:00.000Z")
+        }
+    },
+    "eventInsertDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-02-15T18:30:00.000Z")
+        }
+    },
+    "eventType" : {
+        "ENRICHED" : {
+            "value" : {
+                "normalizedValue" : "Cash Settlement"
+            }
+        }
+    },
+    "eventSubject" : {
+        "FEED" : {
+            "value" : "Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of New World Development Company Limited Stock Option Contracts – Share Consolidation"
+        }
+    },
+    "eventSummaryText" : {
+        "FEED" : {
+            "value" : "Participants are requested to note that capital adjustment to the stock option contracts below will be made on the Effective Date of Share Consolidation (“Effective Date”) based on the corporate action announced:"
+        }
+    },
+    "instrumentTypeCode" : {
+        "FEED" : {
+            "value" : {
+                "val" : "STOCK OPTION CONTRACTS",
+                "val2" : "SEHK",
+                "domain" : "assetClassificationsMap"
+            }
+        }
+    },
+    "optionsAffectedFlag" : {
+        "FEED" : {
+            "value" : {
+                "val" : "YES",
+                "domain" : "yesNoFlagMap"
+            }
+        }
+    },
+    "underlyingsChangeFlag" : {
+        "FEED" : {
+            "value" : {
+                "val" : "YES",
+                "domain" : "yesNoFlagMap"
+            }
+        }
+    },
+    "strikePriceChangeFlag" : {
+        "FEED" : {
+            "value" : {
+                "val" : "NO",
+                "domain" : "yesNoFlagMap"
+            }
+        }
+    },
+    "versionChangeFlag" : {
+        "FEED" : {
+            "value" : {
+                "val" : "NO",
+                "domain" : "yesNoFlagMap"
+            }
+        }
+    },
+    "exchangeTicker" : {
+        "FEED" : {
+            "value" : [ 
+                "MWD 20", 
+                "NWD 21"
+            ]
+        }
+    },
+    "exchangePrefix" : {
+        "FEED" : {
+            "value" : "MWD"
+        }
+    },
+    "newExchangePrefix" : {
+        "FEED" : {
+            "value" : "NWA"
+        }
+    },
+    "productName" : {
+        "FEED" : {
+            "value" : "New World Development Company Limited Stock Option Contracts"
+        }
+    },
+    "newProductName" : {
+        "FEED" : {
+            "value" : "New Global Development Company Limited Stock Option Contracts"
+        }
+    },
+    "productIsin" : {
+        "FEED" : {
+            "value" : "HK1234567890"
+        }
+    },
+    "newProductIsin" : {
+        "FEED" : {
+            "value" : "HK0987654321"
+        }
+    },
+    "series" : {
+        "FEED" : {
+            "value" : [ 
+                "December 2020", 
+                "January 2021"
+            ]
+        }
+    },
+    "adjustmentFactor" : {
+        "FEED" : {
+            "value" : NumberDecimal("0.34")
+        }
+    },
+    "adjustmentFactorOperatorType" : {
+        "FEED" : {
+            "value" : {
+                "val" : "x",
+                "val2" : "SEHK",
+                "domain" : "operatorTypesMap"
+            }
+        }
+    },
+    "eventInitialUrl" : {
+        "FEED" : {
+            "value" : "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2020/MO_DT_092_20_e.pdf"
+        }
+    },
+    "exchangeReferenceId" : {
+        "FEED" : {
+            "value" : "MO/DT/092/20"
+        }
+    },
+    "exchangeReferenceCounter" : {
+        "FEED" : {
+            "value" : NumberLong(2)
+        }
+    },
+    "lastTradeDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-12-21T18:30:00.000Z")
+        }
+    },
+    "newLastTradeDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-01-21T18:30:00.000Z")
+        }
+    },
+    "expirationDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-14T18:30:00.000Z")
+        }
+    },
+    "newExpirationDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-14T18:30:00.000Z")
+        }
+    },
+    "event" : {
+        "FEED" : {
+            "value" : [ 
+                "ABC_1.pdf", 
+                "ZYZ_2.pdf"
+            ]
+        }
+    },
+    "lastCumDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-17T18:30:00.000Z")
+        }
+    },
+    "exDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-18T18:30:00.000Z")
+        }
+    },
+    "recordDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-19T18:30:00.000Z")
+        }
+    },
+    "payDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-03-21T18:30:00.000Z")
+        }
+    },
+    "quantityBefore" : {
+        "FEED" : {
+            "value" : NumberDecimal("4")
+        }
+    },
+    "quantityAfter" : {
+        "FEED" : {
+            "value" : NumberDecimal("1")
+        }
+    },
+    "distributionRatio" : {
+        "FEED" : {
+            "value" : NumberDecimal("1.4")
+        }
+    },
+    "subscriptionPrice" : {
+        "FEED" : {
+            "value" : NumberDecimal("12")
+        }
+    },
+    "subscriptionPriceCurrencyCode" : {
+        "FEED" : {
+            "value" : {
+                "val" : "$",
+                "val2" : "SEHK",
+                "domain" : "currencyCodesMap"
+            }
+        }
+    },
+    "contractSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("100")
+        }
+    },
+    "newContractSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("200")
+        }
+    },
+    "tickSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("1")
+        }
+    },
+    "newTickSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("2")
+        }
+    },
+    "contractMultiplier" : {
+        "FEED" : {
+            "value" : NumberDecimal("10")
+        }
+    },
+    "newContractMultiplier" : {
+        "FEED" : {
+            "value" : NumberDecimal("20")
+        }
+    },
+    "blockTradeMinSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("15000")
+        }
+    },
+    "newBlockTradeMinSize" : {
+        "FEED" : {
+            "value" : NumberDecimal("1200")
+        }
+    },
+    "spotMonthPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("22000")
+        }
+    },
+    "newSpotMonthPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("23000")
+        }
+    },
+    "monthPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("18000")
+        }
+    },
+    "newMonthPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("19000")
+        }
+    },
+    "allMonthsPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("20000")
+        }
+    },
+    "newAllMonthsPositionLimit" : {
+        "FEED" : {
+            "value" : NumberDecimal("21000")
+        }
+    },
+    "eventStatus" : {
+        "ENRICHED" : {
+            "value" : {
+                "normalizedValue" : "A"
+            }
+        }
+    },
+    "version" : NumberLong(1),
+    "audit" : [ 
+        {
+            "auditIndex" : 0,
+            "program" : "NG-UDL",
+            "updateDate" : ISODate("2021-03-17T15:06:40.622Z")
+        }, 
+        {
+            "auditIndex" : 1,
+            "program" : "NG-UDL",
+            "updateDate" : ISODate("2021-03-17T15:07:20.329Z")
+        }
+    ],
+    "_class" : "com.smartstreamrdu.domain.EnData"
+}
+;

@@ -1,0 +1,39 @@
+{
+    "status" : {
+        "RDU" : {
+            "value" : "I"
+        }
+    },
+    "code" : {
+        "RDU" : {
+            "value" : "5199"
+        }
+    },
+    "name" : {
+        "RDU" : {
+            "value" : "Other Equity"
+        }
+    },
+    "description" : {
+        "RDU" : {
+            "value" : "All other equity instruments not listed above"
+        }
+    },
+    "parentCode" : {
+        "RDU" : {
+            "value" : "51"
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2019-09-18T13:00:06.600Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    },
+    "version" : 0
+}
+;

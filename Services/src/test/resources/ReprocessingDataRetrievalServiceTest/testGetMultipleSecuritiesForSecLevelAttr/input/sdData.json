@@ -1,0 +1,650 @@
+{
+    "_id" : ObjectId("5b4826bc32178c36f4174d70"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [],
+        "instrumentTypeCode" : {
+            "RDU" : {
+                "comment" : "Junit",
+                "value" : {
+                    "val" : "OPT"
+                }
+            }
+        },
+        "currentSecuritiesOutstandingDate" : {
+            "FEED" : {
+                "value" : ISODate("2018-03-25T18:30:00.000Z")
+            }
+        },
+        "depositaryReceiptsPerShare" : {
+            "FEED" : {
+                "value" : NumberDecimal("123.0")
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "1",
+                            "documentId" : ObjectId("5b4826bc32178c36f4173d52")
+                        }
+                    }
+                }
+            }
+        ],
+        "lipperId" : {
+            "FEED" : {
+                "value" : "lipperId"
+            }
+        },
+        "measurementUnitName" : {
+            "RDU" : {
+                "comment" : "Junit",
+                "value" : {
+                    "val" : "CME",
+                    "val2" : "EL"
+                }
+            }
+        },
+        "rightsIssueRecordDate" : {
+            "FEED" : {
+                "value" : ISODate("2018-03-25T18:30:00.000Z")
+            }
+        },
+        "rule13FSecuritiesFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "Y"
+                }
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                },
+                "bbgIdBbSecNumDes" : {
+                    "FEED" : {
+                        "value" : "bbgId"
+                    }
+                },
+                "bbgTicker" : {
+                    "FEED" : {
+                        "value" : "TickerVal"
+                    }
+                },
+                "lastDividendExDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-25T18:30:00.000Z")
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "value" : "YEARLY"
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-27T18:30:00.000Z")
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Y"
+                        }
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+							"val" : "AFN",
+							"domain" : "currencyCodesMap"
+						}
+                    }
+                }
+            }, 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "bbgIdBbSecNumDes" : {
+                    "FEED" : {
+                        "value" : "bbgId"
+                    }
+                },
+                "bbgTicker" : {
+                    "FEED" : {
+                        "value" : "TickerVal"
+                    }
+                },
+                "lastDividendExDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-25T18:30:00.000Z")
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "value" : "YEARLY"
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-27T18:30:00.000Z")
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Y"
+                        }
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                }
+            }
+        ],
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "strikePriceCurrencyCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "AED"
+                }
+            }
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;
+{
+    "_id" : ObjectId("5d91b5847840ef237461e946"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [],
+        "instrumentTypeCode" : {
+            "RDU" : {
+                "comment" : "Junit",
+                "value" : {
+                    "val" : "OPT"
+                }
+            }
+        },
+        "currentSecuritiesOutstandingDate" : {
+            "FEED" : {
+                "value" : ISODate("2018-03-25T18:30:00.000Z")
+            }
+        },
+        "depositaryReceiptsPerShare" : {
+            "FEED" : {
+                "value" : NumberDecimal("123.0")
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "1",
+                            "documentId" : ObjectId("5b4826bc32178c36f4173d52")
+                        }
+                    }
+                }
+            }
+        ],
+        "lipperId" : {
+            "FEED" : {
+                "value" : "lipperId"
+            }
+        },
+        "measurementUnitName" : {
+            "RDU" : {
+                "comment" : "Junit",
+                "value" : {
+                    "val" : "CME",
+                    "val2" : "EL"
+                }
+            }
+        },
+        "rightsIssueRecordDate" : {
+            "FEED" : {
+                "value" : ISODate("2018-03-25T18:30:00.000Z")
+            }
+        },
+        "rule13FSecuritiesFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "Y"
+                }
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                },
+                "bbgIdBbSecNumDes" : {
+                    "FEED" : {
+                        "value" : "bbgId"
+                    }
+                },
+                "bbgTicker" : {
+                    "FEED" : {
+                        "value" : "TickerVal"
+                    }
+                },
+                "lastDividendExDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-25T18:30:00.000Z")
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "value" : "YEARLY"
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-27T18:30:00.000Z")
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Y"
+                        }
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+							"val" : "AED",
+							"domain" : "currencyCodesMap"
+						}
+                    }
+                }
+            }, 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "bbgIdBbSecNumDes" : {
+                    "FEED" : {
+                        "value" : "bbgId"
+                    }
+                },
+                "bbgTicker" : {
+                    "FEED" : {
+                        "value" : "TickerVal"
+                    }
+                },
+                "lastDividendExDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-25T18:30:00.000Z")
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "value" : "YEARLY"
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-27T18:30:00.000Z")
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Y"
+                        }
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                }
+            }
+        ],
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "strikePriceCurrencyCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "AED"
+                }
+            }
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;
+{
+    "_id" : ObjectId("5d91b5887840ef237461e947"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [],
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntityName" : {
+                        "FEED" : {
+                            "value" : "LE Name1"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "1",
+                            "documentId" : ObjectId("5b4826bc32178c36f4174d70")
+                        }
+                    }
+                }
+            }
+        ],
+        "isin" : {
+            "FEED" : {
+                "value" : "US1234567809"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                },
+                "bbgIdBbSecNumDes" : {
+                    "FEED" : {
+                        "value" : "bbgId"
+                    }
+                },
+                "bbgTicker" : {
+                    "FEED" : {
+                        "value" : "TickerVal"
+                    }
+                },
+                "lastDividendExDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-25T18:30:00.000Z")
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "value" : "YEARLY"
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-27T18:30:00.000Z")
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Y"
+                        }
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;
+{
+    "_id" : ObjectId("5b4826bc32178c36f4173d50"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "bbgf"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "IO1"
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "value" : "isin1"
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "isin1"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "S01"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "ric" : {
+                    "FEED" : {
+                        "value" : "RIC1"
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;
+{
+    "_id" : ObjectId("5b4826bc32178c36f4173d51"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "IO2"
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "value" : "isin2"
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "isin2"
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "S02"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "ric" : {
+                    "FEED" : {
+                        "value" : "RIC2"
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

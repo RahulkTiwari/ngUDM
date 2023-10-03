@@ -1,0 +1,4 @@
+db.workItemTypes.update({"name.RDU.value": "EN Notice Tracker Item"},{"status": {"RDU": {"value": "A"}}, "name": {"RDU": {"value": "EN Notice Tracker Item"}}, "description": {"RDU": {"value": "The work item is an entry created from scanning exchange websites for notices as a workflow item to evaluate if the notification is in scope for the ENS service."}}},{upsert:true})
+db.workItemTypes.update({"insDate.RDU.value": {$exists: false}}, {$currentDate: {"insDate.RDU.value": true}}, {multi: true})
+db.workItemTypes.update({"insUser.RDU.value": {$exists: false}}, {$set: {"insUser.RDU.value":"DRD"}},{multi:true})
+db.workItemTypes.update({"version": {$exists: false}}, {$set: {"version":NumberLong(0)}},{multi:true})

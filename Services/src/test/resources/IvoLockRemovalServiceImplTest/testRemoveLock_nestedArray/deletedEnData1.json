@@ -1,0 +1,34 @@
+{
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "rduEns"
+            }
+        }
+    },
+    "eventSourceUniqueId" : {
+        "FEED" : {
+            "value" : "XYZ.1.1235"
+        }
+    },
+    "underlyings" : [ 
+        {
+            "instrumentCounter" : {
+                "FEED" : {
+                    "value" : NumberLong(3)
+                }
+            },
+            "isin" : {
+                 "RDU" : {
+                    "value" : "HK1111111111_OPS"
+                }
+            },
+            "sedol" : {
+                "RDU" : {
+                    "value" : "1111111_OPS"
+                }
+            }
+        }
+    ]
+}
+;

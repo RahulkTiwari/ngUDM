@@ -1,0 +1,64 @@
+{
+    "version" : NumberLong(1),
+    "docType" : {
+        "RDU" : {
+            "value" : "RDU"
+        }
+    },
+    "instrument" : {
+        "securities" : [ 
+            {
+                "securityRelations" : [ 
+                    {
+                        "relationType" : {
+                            "RDU" : {
+                                "value" : "IVO"
+                            }
+                        },
+                        "referenceId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "RDUNSE000000000001",
+                                    "documentId" : "5c6d5419f23a5e69a44c7d5f"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "ticker" : {
+                    "RDU" : {
+                        "value" : "BIT"
+                    }
+                }
+            }
+        ],
+        "cins" : {
+            "RDU" : {
+                "value" : "OPSCINS"
+            }
+        },
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "RDU" : {
+                        "value" : "IVO"
+                    }
+                },
+                "referenceId" : {
+                    "RDU" : {
+                        "value" : {
+                            "objectId" : "RDUNIN000000000001",
+                            "documentId" : "5c6d5419f23a5e69a44c7d5f"
+                        }
+                    }
+                }
+            }
+        ],
+        "exerciseStyleCode" : {
+            "RDU" : {
+                "value" : {"normalizedValue":"EUR"}
+            }
+        }
+    }
+}
+;

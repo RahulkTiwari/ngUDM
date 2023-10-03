@@ -1,0 +1,97 @@
+{
+    "_id" : ObjectId("5d8e0d2172d09a9d94927b92"),
+    "version" : NumberLong(0),
+    "docType" : {
+        "RDU" : {
+            "value" : "RDU"
+        }
+    },
+    "instrument" : {
+        "securities" : [ 
+            {
+                "securityRelations" : [ 
+                    {
+                        "relationType" : {
+                            "RDU" : {
+                                "value" : "IVO"
+                            }
+                        },
+                        "referenceId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "RDUNSE000000000001",
+                                    "documentId" : "5c6d5419f23a5e69a44c7d5f"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "ric" : {
+                    "RDU" : {
+                        "value" : "BIT.NZ"
+                    }
+                },
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "user" : "sameer.jadhav",
+                        "updateDate" : ISODate("2019-09-27T13:22:41.586Z"),
+                        "comment" : "first insert"
+                    }
+                ],
+                "ticker" : {
+                    "RDU" : {
+                        "value" : "BIT"
+                    }
+                }
+            }
+        ],
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "user" : "sameer.jadhav",
+                "updateDate" : ISODate("2019-09-27T13:22:41.586Z"),
+                "comment" : "first insert"
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "RDU" : {
+                        "value" : "IVO"
+                    }
+                },
+                "referenceId" : {
+                    "RDU" : {
+                        "value" : {
+                            "objectId" : "RDUNIN000000000001",
+                            "documentId" : "5c6d5419f23a5e69a44c7d5f"
+                        }
+                    }
+                }
+            }, 
+            {
+                "relationType" : {
+                    "RDU" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "refData" : {
+                    "securities" : [ 
+                        {
+                            "ric" : {
+                                "RDU" : {
+                                    "value" : "BIT.NZ"
+                                }
+                            },
+                            "audit" : []
+                        }
+                    ],
+                    "audit" : []
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdIvo"
+}
+;

@@ -1,0 +1,66 @@
+{
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "instrument" : {
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "269037664"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "BondIssueStatusMap"
+                }
+            }
+        },
+        "callRedemptions" : [ 
+            {
+                "callSchedules" : [ 
+                    {
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2019-09-26"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("105")
+                            }
+                        }
+                    },
+                     {
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2024-10-16"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("205")
+                            }
+                        }
+                    }
+                ],
+                "callId" : {
+                    "FEED" : {
+                        "value" : "269663204"
+                    }
+                },
+                "callStartDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2019-09-25T09:30:00.000Z")
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

@@ -1,0 +1,53 @@
+{
+    "_id" : ObjectId("5fabbe07077bdf5e352d6683"),
+    "version" : NumberLong(0),
+    "rawSourceUniqueCode" : {
+        "FEED" : {
+            "value" : "0x00102cef5831259f"
+        }
+    },
+    "rawDataRecord" : {
+        "FEED" : {
+            "value" : "{\"Symbol_Cross_Reference\":[{\"Change_Date_-_Change_Flag\":\"Y\",\"Action\":\"I\",\"Object_Type_Code_-_Change_Flag\":\"Y\",\"Identifier_Value\":\"FNEST-061120\",\"Current_Flag_-_Previous\":\"\",\"Identifier_Scope\":\"\",\"Identifier_Scope_-_Change_Flag\":\"Y\",\"Object_Type_Code\":\"GCBD\",\"Object_Identifier_-_Previous\":\"\",\"Identifier_Characteristic_Code_-_Previous\":\"\",\"Current_Flag_-_Change_Flag\":\"Y\",\"Identifier_Scope_-_Previous\":\"\",\"Object_Identifier\":\"0x00102cef5831259f\",\"Change_Date\":\"\",\"Identifier_Value_-_Previous\":\"\",\"Change_Date_-_Previous\":\"\",\"Identifier_Type_Code\":\"SSE\",\"Perm_ID\":\"232766306438\",\"Perm_ID_-_Previous\":\"\",\"Perm_ID_-_Change_Flag\":\"Y\",\"Identifier_Type_Code_-_Previous\":\"\",\"Identifier_Characteristic_Code\":\"\",\"Identifier_Value_-_Change_Flag\":\"Y\",\"Current_Flag\":\"Y\",\"Identifier_Characteristic_Code_-_Change_Flag\":\"Y\",\"Object_Type_Code_-_Previous\":\"\",\"Object_Identifier_-_Change_Flag\":\"Y\",\"Identifier_Type_Code_-_Change_Flag\":\"Y\"},{\"Change_Date_-_Change_Flag\":\"Y\",\"Action\":\"I\",\"Object_Type_Code_-_Change_Flag\":\"Y\",\"Identifier_Value\":\"FNEST061120=\",\"Current_Flag_-_Previous\":\"\",\"Identifier_Scope\":\"\",\"Identifier_Scope_-_Change_Flag\":\"Y\",\"Object_Type_Code\":\"GCBD\",\"Object_Identifier_-_Previous\":\"\",\"Identifier_Characteristic_Code_-_Previous\":\"\",\"Current_Flag_-_Change_Flag\":\"Y\",\"Identifier_Scope_-_Previous\":\"\",\"Object_Identifier\":\"0x00102cef5831259f\",\"Change_Date\":\"\",\"Identifier_Value_-_Previous\":\"\",\"Change_Date_-_Previous\":\"\",\"Identifier_Type_Code\":\"CRT\",\"Perm_ID\":\"232766306438\",\"Perm_ID_-_Previous\":\"\",\"Perm_ID_-_Change_Flag\":\"Y\",\"Identifier_Type_Code_-_Previous\":\"\",\"Identifier_Characteristic_Code\":\"\",\"Identifier_Value_-_Change_Flag\":\"Y\",\"Current_Flag\":\"Y\",\"Identifier_Characteristic_Code_-_Change_Flag\":\"Y\",\"Object_Type_Code_-_Previous\":\"\",\"Object_Identifier_-_Change_Flag\":\"Y\",\"Identifier_Type_Code_-_Change_Flag\":\"Y\"}],\"ASSET_ID\":\"0x00102cef5831259f\"}"
+        }
+    },
+    "codeHash" : {
+        "FEED" : {
+            "value" : "6b6a01fbf5384735de894908c2f48de1"
+        }
+    },
+    "feedExecutionDetailId" : {
+        "FEED" : {}
+    },
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "rdsp"
+            }
+        }
+    },
+    "rawDataStatus" : {
+        "FEED" : {
+            "value" : {
+                "val" : "A"
+            }
+        }
+    },
+    "rawDataLevel" : {
+        "FEED" : {
+            "value" : "INS"
+        }
+    },
+    "fileType" : {
+        "FEED" : {
+            "value" : "DEFAULT"
+        }
+    },
+    "insDate" : {
+        "FEED" : {
+            "value" : ISODate("2020-11-11T10:33:43.645Z")
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdRawData"
+}
+;

@@ -1,0 +1,123 @@
+{
+    "_id" : ObjectId("5e91aea2f4f22b032ce7aaff"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "asbIsin"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-11T11:48:50.209Z"),
+                "fileName" : "/daq01/camel/equities/deployment/asbmaster200328.txt_part_h"
+            }
+        ],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "9cf4aa54-2f3c-4916-a837-dd83e6b86b27"
+            }
+        },
+        "insRawDataId" : {
+            "FEED" : {
+                "value" : "5e91a97000c9854ab03e7d83"
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "^E[SC][A-Z]{4}$",
+                    "domain" : "instrumentTypeCodeMap"
+                }
+            }
+        },
+        "cfiCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cfiCode2015" : {
+            "FEED" : {
+                "value" : "ESVUFR"
+            }
+        },
+        "currentNominalCurrencyCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "USD",
+                    "domain" : "currencyMap"
+                }
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {}
+                },
+                "refData" : {
+                    "audit" : [],
+                    "lei" : {
+                        "FEED" : {
+                            "value" : "VGRQXHF3J8VDLUA7XE92"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "US4592001014"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "N",
+                    "domain" : "instrumentStatusMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "US4592001014"
+            }
+        },
+        "maturityDate" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "securities" : [],
+        "rduInactivationDate" : {
+            "ENRICHED" : {
+                "value" : ISODate("2026-04-13T11:48:50.209Z")
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-04-11T11:48:50.209Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "dataSourceProcessingDateTime" : {
+        "FEED" : {
+            "value" : ISODate("2020-04-11T10:59:58.961Z")
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

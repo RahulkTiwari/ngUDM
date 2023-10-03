@@ -1,0 +1,53 @@
+{
+    "_id" : ObjectId("60eda1f526bd361d6483d318"),
+    "rawSourceUniqueCode" : {
+        "FEED" : {
+            "value" : "20210713_OCC_CASH IN LIEU SETTLEMENT_48443_1"
+        }
+    },
+    "rawDataRecord" : {
+        "FEED" : {
+            "value" : "{\"exchangeReferenceCounter\":\"1\",\"eventSourceUniqueId\":\"20210713_OCC_CASH IN LIEU SETTLEMENT_48443_1\",\"instrumentTypeName\":\"OPTION\",\"eventPreviousReferenceIds\":[{\"exchangeReferenceIdCounter\":\"1\",\"exchangePreviousReferenceId\":\"48243\"}],\"eventSummaryText\":\"Adjusted Direxion Daily Financial Bear 3X Shares options were adjusted on March 2, 2021 (See OCC Information Memo #48243). The new deliverable became 1) 12 Direxion Daily Financial Bear 3X Shares (FAZ), and 2) Cash in lieu of 0.5 fractional FAZ shares. Only settlement of the cash portion of FAZ2 options exercise/assignment activity was subject to delayed settlement. OCC has been informed that a price of $38.209292 per whole FAZ share will be used to determine the cash in lieu amount. Accordingly, the cash in lieu amount is: 0.5 x $38.209292 = $19.10 per FAZ2 Contract Now that the exact cash in lieu amount has been determined, OCC will require Put exercisers and Call assignees, during the period of March 2, 2021 through March 16, 2021, to deliver the appropriate cash amount. Terms of the FAZ2 options are as follows:\",\"strikePriceChangeFlag\":\"NO\",\"eventInitialUrl\":\"https://infomemo.theocc.com/infomemos?number=48443\",\"eventInsertDate\":\"20210713\",\"eventPublishDate\":\"20210316\",\"newUnderlyings\":[{\"newExchangeTicker\":\"FAZ\",\"newInstrumentCounter\":\"1\",\"newCusip\":\"25460E240\",\"newQuantity\":\"12\",\"newNameLong\":\"Direxion Daily Financial Bear 3X Shares (FAZ)\"},{\"newInstrumentCounter\":\"2\",\"newQuantity\":\"19.10\",\"newQuantityCurrencyName\":\"$\",\"newNameLong\":\"Cash\"}],\"eventTypeName\":\"CASH IN LIEU SETTLEMENT\",\"event\":[\"20210713_OCC_CASH IN LIEU SETTLEMENT_48443.pdf\"],\"exchangeSourceName\":\"OCC\",\"exchangeReferenceId\":\"48443\",\"eventSubject\":\"Adjusted Direxion Daily Financial Bear 3X Shares - Cash In Lieu\\nSettlement\\nAdjusted Option Symbol: FAZ2\",\"exchangePrefix\":\"FAZ2\"}"
+        }
+    },
+    "codeHash" : {
+        "FEED" : {
+            "value" : "af8d1116d937004a09d9d888515ddd22"
+        }
+    },
+    "feedExecutionDetailId" : {
+        "FEED" : {}
+    },
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "rduEns"
+            }
+        }
+    },
+    "rawDataStatus" : {
+        "FEED" : {
+            "value" : {
+                "val" : "A"
+            }
+        }
+    },
+    "rawDataLevel" : {
+        "FEED" : {
+            "value" : "EN"
+        }
+    },
+    "fileType" : {
+        "FEED" : {
+            "value" : "rduEns"
+        }
+    },
+    "insDate" : {
+        "FEED" : {
+            "value" : ISODate("2021-07-13T14:23:49.688Z")
+        }
+    },
+    "version" : NumberLong(0),
+    "_class" : "com.smartstreamrdu.domain.EnRawData"
+}
+;

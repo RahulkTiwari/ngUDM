@@ -1,0 +1,44 @@
+{
+    "_id" : ObjectId("5e91aea2f4f22b032ce7aaff"),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "asbIsin"
+            }
+        }
+    },
+    "instrument" : {
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "9cf4aa54-2f3c-4916-a837-dd83e6b86b27"
+            }
+        },
+        "instrumentTypeCode" : {
+            "RDU" : {
+                "value" : {
+                    "normalizedValue" : "AnnaRDU"
+                }
+            }
+        },
+        "cfiCode2015" : {
+            "RDU" : {
+                "value" : "RDU_ESVUFR"
+            }
+        },
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "US4592001014"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "N",
+                    "domain" : "instrumentStatusMap"
+                }
+            }
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

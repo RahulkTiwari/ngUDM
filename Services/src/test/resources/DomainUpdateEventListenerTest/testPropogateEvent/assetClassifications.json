@@ -1,0 +1,9 @@
+{
+    "status" : {
+        "RDU" : {
+            "value" : "A"
+        }
+    },
+    "version" : NumberLong(0)
+}
+;

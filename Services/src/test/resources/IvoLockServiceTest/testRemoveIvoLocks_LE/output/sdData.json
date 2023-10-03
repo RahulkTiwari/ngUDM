@@ -1,0 +1,59 @@
+{
+    "_id" : ObjectId("5c6d540975ecec105e4243aa"),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2019-09-27T07:47:08.582Z")
+        }
+    },
+    "version" : NumberLong(2),
+    "legalEntity" : {
+        "_legalEntityId" : {
+            "FEED" : {
+                "value" : "4a0fbf48-0d94-4bd8-a81e-4a7a7ce4d54b"
+            }
+        },
+        "legalEntitySourceUniqueId" : {
+            "FEED" : {
+                "value" : "100313105"
+            }
+        },
+        "gicsIndustryCode" : {
+            "FEED" : {
+                "value" : "402030"
+            }
+        },
+        "legalEntityName" : {
+            "FEED" : {
+                "value" : "Kingfish Ltd"
+            }
+        },
+        "legalEntityStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "entityStatusMap"
+                }
+            }
+        },
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "updateDate" : ISODate("2019-09-27T12:40:14.032Z")
+            }, 
+            {
+                "auditIndex" : 1,
+                "user" : "sameer.jadhav",
+                "comment" : "remove OPS lock on LE"
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

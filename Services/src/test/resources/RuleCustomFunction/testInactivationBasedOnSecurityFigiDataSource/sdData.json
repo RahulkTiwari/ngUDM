@@ -1,0 +1,229 @@
+{
+	"_id" : ObjectId("642187fc99177651520b1082"),
+	"dataSource" : {
+		"FEED" : {
+			"value" : {
+				"val" : "figi"
+			}
+		}
+	},
+	"insDate" : {
+		"RDU" : {
+			"value" : ISODate("2023-03-27T17:41:40.625+05:30")
+		}
+	},
+	"insUser" : {
+		"RDU" : {
+			"value" : "udl"
+		}
+	},
+	"version" : NumberLong("0"),
+	"instrument" : {
+		"rduInactivationDate" : {
+			"ENRICHED" : {
+				"value" : ISODate("9999-12-31T00:00:00.000+05:30")
+			}
+		},
+		"_instrumentId" : {
+			"FEED" : {
+				"value" : "b97862f7-76ad-4d71-a516-c83cd59f3e9a"
+			}
+		},
+		"instrumentSourceUniqueId" : {
+			"FEED" : {
+				"value" : "BBG008NZ8QB1"
+			}
+		},
+		"securities" : [
+			{
+				"_securityId" : {
+					"FEED" : {
+						"value" : "1"
+					}
+				},
+				"securitySourceUniqueId" : {
+					"FEED" : {
+						"value" : "BBG008NZ8QH5"
+					}
+				},
+				"secRawDataId" : {
+					"FEED" : {
+						"value" : "642187fc99177651520b1081"
+					}
+				},
+				"rduSecurityType" : {
+					"ENRICHED" : {
+						"value" : {
+							"normalizedValue" : "Regular"
+						}
+					}
+				},
+				"bbgCompositeExchangeCode" : {
+					"FEED" : {
+						"value" : "US"
+					}
+				},
+				"bbgCompositeIdBbGlobal" : {
+					"FEED" : {
+						"value" : "BBG008NZ8QC0"
+					}
+				},
+				"bbgCompositeTicker" : {
+					"FEED" : {
+						"value" : "AC US"
+					}
+				},
+				"bbgIdBbGlobal" : {
+					"FEED" : {
+						"value" : "BBG008NZ8QH5"
+					}
+				},
+				"bbgSecurityDes" : {
+					"FEED" : {
+						"value" : "AC"
+					}
+				},
+				"exchangeCode" : {
+					"FEED" : {
+						"value" : {
+							"val" : "XNYS",
+							"domain" : "micCodeMap"
+						}
+					}
+				},
+				"securityStatus" : {
+					"FEED" : {
+						"value" : {
+							"val" : "1",
+							"domain" : "tradingStatusMap"
+						}
+					}
+				},
+				"sedol" : {
+					"FEED" : {
+						"errorCode" : 103
+					}
+				},
+				"ticker" : {
+					"FEED" : {
+						"value" : "AC UN"
+					}
+				},
+				"tradeCurrencyCode" : {
+					"FEED" : {
+						"value" : {
+							"val" : "USD",
+							"domain" : "currencyMap"
+						}
+					}
+				},
+				"vendorExchangeCode" : {
+					"FEED" : {
+						"value" : "UN"
+					}
+				},
+				"additionalXrfParameterType" : {
+					"FEED" : {
+						"value" : {
+							"val" : "AC",
+							"val2" : "UN",
+							"domain" : "xrfAdditionalTypesMap"
+						}
+					}
+				},
+				"audit" : [
+					{
+						"auditIndex" : 0,
+						"program" : "NG-UDL",
+						"updateDate" : ISODate("2023-03-27T17:41:40.625+05:30")
+						},
+					{
+						"auditIndex" : 1,
+						"program" : "NG-UDL",
+						"updateDate" : ISODate("2023-03-27T17:55:40.539+05:30")
+					}
+				]
+			},
+			{
+				"_securityId" : {
+					"FEED" : {
+						"value" : "2"
+					}
+				},
+				"rduSecurityType" : {
+					"ENRICHED" : {
+						"value" : {
+							"normalizedValue" : "Technical"
+						}
+					}
+				},
+				"securityStatus" : {
+					"ENRICHED" : {
+						"value" : {
+							"normalizedValue" : "A"
+						}
+					}
+				},
+				"audit" : [
+					{
+						"auditIndex" : 0,
+						"program" : "NG-UDL",
+						"updateDate" : ISODate("2023-03-27T17:55:40.541+05:30")
+					}
+				]
+			}
+		],
+		"bbgIdBbGlobalShareClassLevel" : {
+			"FEED" : {
+				"value" : "BBG008NZ8QB1"
+			}
+		},
+		"bbgMarketSectorDes" : {
+			"FEED" : {
+				"value" : "Equity"
+			}
+		},
+		"bbgSecurityTyp" : {
+			"FEED" : {
+				"value" : "Common Stock"
+			}
+		},
+		"bbgSecurityTyp2" : {
+			"FEED" : {
+				"value" : "Common Stock"
+			}
+		},
+		"cusip" : {
+			"FEED" : {
+				"errorCode" : 103
+			}
+		},
+		"instrumentStatus" : {
+			"FEED" : {
+				"value" : {
+					"val" : "1",
+					"domain" : "tradingStatusMap"
+				}
+			}
+		},
+		"isin" : {
+			"FEED" : {
+				"value" : "US0455281065"
+			}
+		},
+		"nameLong" : {
+			"FEED" : {
+				"value" : "ASSOCIATED CAPITAL GROUP - A"
+			}
+		},
+		"audit" : [
+			{
+				"auditIndex" : 0,
+				"program" : "NG-UDL",
+				"updateDate" : ISODate("2023-03-27T17:41:40.625+05:30")
+			}
+		]
+	},
+	"_class" : "com.smartstreamrdu.persistence.domain.SdData"
+}
+;

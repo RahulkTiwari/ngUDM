@@ -1,0 +1,22 @@
+{
+    "originalRequest" : {
+        "isin" : "DN0455281065",
+        "sedol" : "BK1WN11",
+        "tradeCurrencyCode" : "USD",
+        "exchangeCode" : "XNYS"
+    },
+    "primarySourceReferenceId" : {
+        "objectId" : "1",
+        "documentId" : "6409c8537a05c55f08668912"
+    },
+    "status" : "S",
+    "openFigiIds" : [
+        "BBG008NZ8QH5"
+    ],
+    "successfulRequest" : "{\"currency\":\"USD\",\"idType\":\"ID_ISIN\",\"idValue\":\"DN0455281065\",\"micCode\":\"XNYS\"}",
+    "dataSource" : "idcApex",
+    "retriesAttempted" : NumberLong(0),
+    "version" : NumberLong(7),
+    "_class" : "com.smartstreamrdu.persistence.domain.OpenFigiRequestMetrics"
+}
+;

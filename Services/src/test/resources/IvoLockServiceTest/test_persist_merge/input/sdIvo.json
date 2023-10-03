@@ -1,0 +1,57 @@
+{
+    "version" : NumberLong(0),
+    "docType" : {
+        "RDU" : {
+            "value" : "RDU"
+        }
+    },
+    "instrument" : {
+        "securities" : [ 
+            {
+                "securityRelations" : [ 
+                    {
+                        "relationType" : {
+                            "RDU" : {
+                                "value" : "IVO"
+                            }
+                        },
+                        "referenceId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "RDUNSE000000000001",
+                                    "documentId" : "5c6d5419f23a5e69a44c7d5f"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "audit" : [],
+                "ticker" : {
+                    "RDU" : {
+                        "value" : "BIT"
+                    }
+                }
+            }
+        ],
+        "audit" : [],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "RDU" : {
+                        "value" : "IVO"
+                    }
+                },
+                "referenceId" : {
+                    "RDU" : {
+                        "value" : {
+                            "objectId" : "RDUNIN000000000001",
+                            "documentId" : "5c6d5419f23a5e69a44c7d5f"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdIvo"
+}
+;

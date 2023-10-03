@@ -1,0 +1,998 @@
+{
+    "_id" : ObjectId("5e2012fb21ec0916e88bb9c5"),
+    "version" : NumberLong(1),
+    "instrument" : {
+        "xrfIsin" : {
+            "RDU" : {
+                "value" : "AU0000001869"
+            }
+        },
+        "xrfCusip" : {
+            "RDU" : {}
+        },
+        "xrfInstrumentStatus" : {
+            "RDU" : {
+                "value" : {
+                    "normalizedValue" : "A"
+                }
+            }
+        },
+        "rduInstrumentId" : {
+            "RDU" : {
+                "value" : "RDUNIN000000001665"
+            }
+        },
+        "lastModifiedDate" : {
+            "RDU" : {
+                "value" : ISODate("2020-12-20T00:23:24.591Z")
+            }
+        },
+        "instrumentXrfLinks" : [ 
+            {
+                "cusip" : {
+                    "RDU" : {}
+                },
+                "isin" : {
+                    "RDU" : {
+                        "value" : "AU0000001869"
+                    }
+                },
+                "_instrumentXrfRefId" : {
+                    "RDU" : {
+                        "value" : {
+                            "objectId" : "4b7bb7bb-07fc-4009-ab65-167dd68e80b9",
+                            "documentId" : "5fde3574ec1dcf712d21d8e5"
+                        }
+                    }
+                },
+                "instrumentXrfLinkDataSource" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "idcApex"
+                        }
+                    }
+                },
+                "instrumentXrfLinkStartDate" : {
+                    "RDU" : {
+                        "value" : ISODate("2020-12-19T17:17:05.074Z")
+                    }
+                },
+                "instrumentXrfLinkInitialDate" : {
+                    "RDU" : {
+                        "value" : ISODate("2020-12-19T17:17:05.074Z")
+                    }
+                },
+                "instrumentXrfLinkEndDate" : {
+                    "RDU" : {}
+                },
+                "instrumentXrfLinkStatus" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "previousRduInstrumentId" : {
+                    "RDU" : {}
+                },
+                "previousRduInstrumentIdStartDate" : {
+                    "RDU" : {}
+                },
+                "instrumentXrfLinkInactivationDate" : {
+                    "RDU" : {}
+                }
+            }, 
+            {
+                "cusip" : {
+                    "RDU" : {}
+                },
+                "isin" : {
+                    "RDU" : {
+                        "value" : "AU0000001869"
+                    }
+                },
+                "_instrumentXrfRefId" : {
+                    "RDU" : {
+                        "value" : {
+                            "objectId" : "cb01973f-c8be-4244-a524-fd87f2d700fc",
+                            "documentId" : "5e201396430d9c29dc506200"
+                        }
+                    }
+                },
+                "instrumentXrfLinkDataSource" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "figi"
+                        }
+                    }
+                },
+                "instrumentXrfLinkStartDate" : {
+                    "RDU" : {
+                        "value" : ISODate("2020-01-16T07:41:25.722Z")
+                    }
+                },
+                "instrumentXrfLinkInitialDate" : {
+                    "RDU" : {
+                        "value" : ISODate("2020-01-16T07:41:25.722Z")
+                    }
+                },
+                "instrumentXrfLinkEndDate" : {
+                    "RDU" : {}
+                },
+                "instrumentXrfLinkStatus" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "previousRduInstrumentId" : {
+                    "RDU" : {}
+                },
+                "previousRduInstrumentIdStartDate" : {
+                    "RDU" : {}
+                },
+                "instrumentXrfLinkInactivationDate" : {
+                    "RDU" : {}
+                }
+            }, 
+            {
+                "cusip" : {
+                    "RDU" : {}
+                },
+                "isin" : {
+                    "RDU" : {
+                        "value" : "AU0000001869"
+                    }
+                },
+                "_instrumentXrfRefId" : {
+                    "RDU" : {
+                        "value" : {
+                            "objectId" : "4373099d-7860-463d-bde8-5a213c45148d",
+                            "documentId" : "5e2012e509a36d4855ae5dba"
+                        }
+                    }
+                },
+                "instrumentXrfLinkDataSource" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "trdse"
+                        }
+                    }
+                },
+                "instrumentXrfLinkStartDate" : {
+                    "RDU" : {
+                        "value" : ISODate("2020-01-16T07:43:54.102Z")
+                    }
+                },
+                "instrumentXrfLinkInitialDate" : {
+                    "RDU" : {
+                        "value" : ISODate("2020-01-16T07:43:54.102Z")
+                    }
+                },
+                "instrumentXrfLinkEndDate" : {
+                    "RDU" : {}
+                },
+                "instrumentXrfLinkStatus" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "previousRduInstrumentId" : {
+                    "RDU" : {}
+                },
+                "previousRduInstrumentIdStartDate" : {
+                    "RDU" : {}
+                },
+                "instrumentXrfLinkInactivationDate" : {
+                    "RDU" : {}
+                }
+            }
+        ],
+        "xrfInsLinkedExceptions" : [],
+        "securities" : [ 
+            {
+                "xrfSedol" : {
+                    "RDU" : {
+                        "value" : "BDCX9P5"
+                    }
+                },
+                "xrfExchangeCode" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "CHIA"
+                        }
+                    }
+                },
+                "xrfTradeCurrencyCode" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "AUD"
+                        }
+                    }
+                },
+                "xrfSecurityStatus" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "xrfAdditionalXrfParameterType" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "Default"
+                        }
+                    }
+                },
+                "rduSecurityId" : {
+                    "RDU" : {
+                        "value" : "RDUNSE000000025017"
+                    }
+                },
+                "xrfSecLinkedExceptions" : [],
+                "securityXrfLinks" : [ 
+                    {
+                        "sedol" : {
+                            "RDU" : {}
+                        },
+                        "exchangeCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "CHIA"
+                                }
+                            }
+                        },
+                        "tradeCurrencyCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "AUD"
+                                }
+                            }
+                        },
+                        "additionalXrfParameterType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Default"
+                                }
+                            }
+                        },
+                        "securityXrfLinkDataSource" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "idcApex"
+                                }
+                            }
+                        },
+                        "securityXrfLinkStartDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-12-19T17:17:05.074Z")
+                            }
+                        },
+                        "securityXrfLinkInitialDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-12-19T17:17:05.074Z")
+                            }
+                        },
+                        "securityXrfLinkEndDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkStatus" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "A"
+                                }
+                            }
+                        },
+                        "_securityXrfRefId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "1",
+                                    "documentId" : "5fde3574ec1dcf712d21d8e5"
+                                }
+                            }
+                        },
+                        "previousRduSecurityId" : {
+                            "RDU" : {}
+                        },
+                        "previousRduSecurityIdStartDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkInactivationDate" : {
+                            "RDU" : {}
+                        },
+                        "rduSecurityType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Regular"
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "sedol" : {
+                            "RDU" : {
+                                "value" : "BDCX9P5"
+                            }
+                        },
+                        "exchangeCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "CHIA"
+                                }
+                            }
+                        },
+                        "tradeCurrencyCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "AUD"
+                                }
+                            }
+                        },
+                        "additionalXrfParameterType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Default"
+                                }
+                            }
+                        },
+                        "securityXrfLinkDataSource" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "trdse"
+                                }
+                            }
+                        },
+                        "securityXrfLinkStartDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:43:54.102Z")
+                            }
+                        },
+                        "securityXrfLinkInitialDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:43:54.102Z")
+                            }
+                        },
+                        "securityXrfLinkEndDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkStatus" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "A"
+                                }
+                            }
+                        },
+                        "_securityXrfRefId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "4",
+                                    "documentId" : "5e2012e509a36d4855ae5dba"
+                                }
+                            }
+                        },
+                        "previousRduSecurityId" : {
+                            "RDU" : {}
+                        },
+                        "previousRduSecurityIdStartDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkInactivationDate" : {
+                            "RDU" : {}
+                        },
+                        "rduSecurityType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Regular"
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "sedol" : {
+                            "RDU" : {
+                                "value" : "BDCX9P5"
+                            }
+                        },
+                        "exchangeCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "CHIA"
+                                }
+                            }
+                        },
+                        "tradeCurrencyCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "AUD"
+                                }
+                            }
+                        },
+                        "additionalXrfParameterType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Default"
+                                }
+                            }
+                        },
+                        "securityXrfLinkDataSource" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "figi"
+                                }
+                            }
+                        },
+                        "securityXrfLinkStartDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T08:38:06.816Z")
+                            }
+                        },
+                        "securityXrfLinkInitialDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T08:38:06.816Z")
+                            }
+                        },
+                        "securityXrfLinkEndDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkStatus" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "A"
+                                }
+                            }
+                        },
+                        "_securityXrfRefId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "2",
+                                    "documentId" : "5e201396430d9c29dc506200"
+                                }
+                            }
+                        },
+                        "previousRduSecurityId" : {
+                            "RDU" : {}
+                        },
+                        "previousRduSecurityIdStartDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkInactivationDate" : {
+                            "RDU" : {}
+                        },
+                        "rduSecurityType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Regular"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }, 
+            {
+                "xrfSedol" : {
+                    "RDU" : {
+                        "value" : "BDCX9P5"
+                    }
+                },
+                "xrfExchangeCode" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "CCMP|AU"
+                        }
+                    }
+                },
+                "xrfTradeCurrencyCode" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "AUD"
+                        }
+                    }
+                },
+                "xrfSecurityStatus" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "xrfAdditionalXrfParameterType" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "Default"
+                        }
+                    }
+                },
+                "rduSecurityId" : {
+                    "RDU" : {
+                        "value" : "RDUNSE000000022303"
+                    }
+                },
+                "xrfSecLinkedExceptions" : [],
+                "securityXrfLinks" : [ 
+                    {
+                        "sedol" : {
+                            "RDU" : {
+                                "value" : "BDCX9P5"
+                            }
+                        },
+                        "exchangeCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "CCMP|AU"
+                                }
+                            }
+                        },
+                        "tradeCurrencyCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "AUD"
+                                }
+                            }
+                        },
+                        "additionalXrfParameterType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Default"
+                                }
+                            }
+                        },
+                        "securityXrfLinkDataSource" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "trdse"
+                                }
+                            }
+                        },
+                        "securityXrfLinkStartDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:43:11.731Z")
+                            }
+                        },
+                        "securityXrfLinkInitialDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:43:11.731Z")
+                            }
+                        },
+                        "securityXrfLinkEndDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkStatus" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "A"
+                                }
+                            }
+                        },
+                        "_securityXrfRefId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "3",
+                                    "documentId" : "5e2012e509a36d4855ae5dba"
+                                }
+                            }
+                        },
+                        "previousRduSecurityId" : {
+                            "RDU" : {}
+                        },
+                        "previousRduSecurityIdStartDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkInactivationDate" : {
+                            "RDU" : {}
+                        },
+                        "rduSecurityType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Regular"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }, 
+            {
+                "xrfSedol" : {
+                    "RDU" : {
+                        "value" : "BDCX9P5"
+                    }
+                },
+                "xrfExchangeCode" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "XASX"
+                        }
+                    }
+                },
+                "xrfTradeCurrencyCode" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "AUD"
+                        }
+                    }
+                },
+                "xrfSecurityStatus" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "xrfAdditionalXrfParameterType" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "Default"
+                        }
+                    }
+                },
+                "rduSecurityId" : {
+                    "RDU" : {
+                        "value" : "RDUNSE000000009176"
+                    }
+                },
+                "xrfSecLinkedExceptions" : [],
+                "securityXrfLinks" : [ 
+                    {
+                        "sedol" : {
+                            "RDU" : {
+                                "value" : "BDCX9P5"
+                            }
+                        },
+                        "exchangeCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "XASX"
+                                }
+                            }
+                        },
+                        "tradeCurrencyCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "AUD"
+                                }
+                            }
+                        },
+                        "additionalXrfParameterType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Default"
+                                }
+                            }
+                        },
+                        "securityXrfLinkDataSource" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "idcApex"
+                                }
+                            }
+                        },
+                        "securityXrfLinkStartDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-12-19T17:17:05.153Z")
+                            }
+                        },
+                        "securityXrfLinkInitialDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-12-19T17:17:05.153Z")
+                            }
+                        },
+                        "securityXrfLinkEndDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkStatus" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "A"
+                                }
+                            }
+                        },
+                        "_securityXrfRefId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "2",
+                                    "documentId" : "5fde3574ec1dcf712d21d8e5"
+                                }
+                            }
+                        },
+                        "previousRduSecurityId" : {
+                            "RDU" : {}
+                        },
+                        "previousRduSecurityIdStartDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkInactivationDate" : {
+                            "RDU" : {}
+                        },
+                        "rduSecurityType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Regular"
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "sedol" : {
+                            "RDU" : {
+                                "value" : "BDCX9P5"
+                            }
+                        },
+                        "exchangeCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "XASX"
+                                }
+                            }
+                        },
+                        "tradeCurrencyCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "AUD"
+                                }
+                            }
+                        },
+                        "additionalXrfParameterType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Default"
+                                }
+                            }
+                        },
+                        "securityXrfLinkDataSource" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "trdse"
+                                }
+                            }
+                        },
+                        "securityXrfLinkStartDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:40:22.937Z")
+                            }
+                        },
+                        "securityXrfLinkInitialDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:40:22.937Z")
+                            }
+                        },
+                        "securityXrfLinkEndDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkStatus" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "A"
+                                }
+                            }
+                        },
+                        "_securityXrfRefId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "2",
+                                    "documentId" : "5e2012e509a36d4855ae5dba"
+                                }
+                            }
+                        },
+                        "previousRduSecurityId" : {
+                            "RDU" : {}
+                        },
+                        "previousRduSecurityIdStartDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkInactivationDate" : {
+                            "RDU" : {}
+                        },
+                        "rduSecurityType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Regular"
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "sedol" : {
+                            "RDU" : {
+                                "value" : "BDCX9P5"
+                            }
+                        },
+                        "exchangeCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "XASX"
+                                }
+                            }
+                        },
+                        "tradeCurrencyCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "AUD"
+                                }
+                            }
+                        },
+                        "additionalXrfParameterType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Default"
+                                }
+                            }
+                        },
+                        "securityXrfLinkDataSource" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "figi"
+                                }
+                            }
+                        },
+                        "securityXrfLinkStartDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:41:25.722Z")
+                            }
+                        },
+                        "securityXrfLinkInitialDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:41:25.722Z")
+                            }
+                        },
+                        "securityXrfLinkEndDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkStatus" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "A"
+                                }
+                            }
+                        },
+                        "_securityXrfRefId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "1",
+                                    "documentId" : "5e201396430d9c29dc506200"
+                                }
+                            }
+                        },
+                        "previousRduSecurityId" : {
+                            "RDU" : {}
+                        },
+                        "previousRduSecurityIdStartDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkInactivationDate" : {
+                            "RDU" : {}
+                        },
+                        "rduSecurityType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Regular"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }, 
+            {
+                "xrfSedol" : {
+                    "RDU" : {}
+                },
+                "xrfExchangeCode" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "XASX"
+                        }
+                    }
+                },
+                "xrfTradeCurrencyCode" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "AUD"
+                        }
+                    }
+                },
+                "xrfSecurityStatus" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "xrfAdditionalXrfParameterType" : {
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "Short Sell"
+                        }
+                    }
+                },
+                "rduSecurityId" : {
+                    "RDU" : {
+                        "value" : "RDUNSE000000001664"
+                    }
+                },
+                "xrfSecLinkedExceptions" : [],
+                "securityXrfLinks" : [ 
+                    {
+                        "sedol" : {
+                            "RDU" : {}
+                        },
+                        "exchangeCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "XASX"
+                                }
+                            }
+                        },
+                        "tradeCurrencyCode" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "AUD"
+                                }
+                            }
+                        },
+                        "additionalXrfParameterType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Short Sell"
+                                }
+                            }
+                        },
+                        "securityXrfLinkDataSource" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "trdse"
+                                }
+                            }
+                        },
+                        "securityXrfLinkStartDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:38:35.697Z")
+                            }
+                        },
+                        "securityXrfLinkInitialDate" : {
+                            "RDU" : {
+                                "value" : ISODate("2020-01-16T07:38:35.697Z")
+                            }
+                        },
+                        "securityXrfLinkEndDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkStatus" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "A"
+                                }
+                            }
+                        },
+                        "_securityXrfRefId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "1",
+                                    "documentId" : "5e2012e509a36d4855ae5dba"
+                                }
+                            }
+                        },
+                        "previousRduSecurityId" : {
+                            "RDU" : {}
+                        },
+                        "previousRduSecurityIdStartDate" : {
+                            "RDU" : {}
+                        },
+                        "securityXrfLinkInactivationDate" : {
+                            "RDU" : {}
+                        },
+                        "rduSecurityType" : {
+                            "RDU" : {
+                                "value" : {
+                                    "normalizedValue" : "Regular"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.XrData"
+}
+;

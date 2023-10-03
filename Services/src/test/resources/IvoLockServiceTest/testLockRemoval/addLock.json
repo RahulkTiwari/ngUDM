@@ -1,0 +1,82 @@
+{	
+	"_id":ObjectId("5c6d541775ecec105e4243fe"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "06066a00-3ec5-446a-a333-e222349602b6"
+            }
+        },
+        "australiaInstrumentId" : {
+            "RDU" : {
+                "value" : "OPS_AUS_INS_ID"
+            }
+        },
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "0x00100b000923dda7"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1"
+                }
+            }
+        },
+        "isin" : {
+            "RDU" : {
+                "value" : "GB0000767003"
+            }
+        },
+        "cins" : {
+            "RDU" : {
+                "value" : "OPSCINS"
+            }
+        },
+        "securities" : [ 
+            {
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "ticker" : {
+                    "RDU" : {
+                        "value" : "BIT"
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "0x00100b001434b85a"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "RDU" : {
+                        "value" : "6077439"
+                    }
+                },
+                "ric" : {
+                    "RDU" : {
+                        "value" : "BIT.NZ"
+                    }
+                }
+            }
+        ]
+        }
+}
+;

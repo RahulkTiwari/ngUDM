@@ -1,0 +1,87 @@
+{	
+	"_id":ObjectId("5c6d541775ecec105e4243fe"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "06066a00-3ec5-446a-a333-e222349602b6"
+            }
+        },
+        "australiaInstrumentId" : {
+            "FEED" : {
+                "value" : "FEED_AUS_INS_ID"
+            }
+        },
+        "exerciseStyleCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "E"
+                }
+            }
+        },
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "0x00100b000923dda7"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "NZNTLE0003S1"
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "value" : "GENWB"
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "0x00100b001434b85a"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "value" : "BF00P65"
+                    }
+                }
+            }
+        ]
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2019-09-27T07:47:08.372Z")
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

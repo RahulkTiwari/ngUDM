@@ -1,0 +1,40 @@
+{
+    "_id" : ObjectId("6156a523e4fba6850acbbc1c"),
+    "version" : NumberLong(0),
+    "name" : "ESMA_FULL_DELETE_API",
+    "fileType" : "FULL",
+    "inactiveRecordInclusion" : false,
+    "profile" : "ESMA",
+    "fileFormat" : "CSV",
+    "joltSpecFileName" : "SFTR_JOLT_SPEC.json",
+    "status" : "A",
+    "filters" : [],
+    "postProcessors" : [ 
+        {
+            "order" : NumberLong(1),
+            "postProcess" : "COMPRESSION",
+            "compressionMethod" : "ZIP"
+        }
+    ]
+}
+;
+{
+    "_id" : ObjectId("6156a625e5fba6850acbbc22"),
+    "version" : NumberLong(0),
+    "name" : "ESMA_DELTA_DELETE_API",
+    "fileType" : "DELTA",
+    "inactiveRecordInclusion" : true,
+    "profile" : "ESMA",
+    "fileFormat" : "CSV",
+    "joltSpecFileName" : "SFTR_JOLT_SPEC.json",
+    "status" : "A",
+    "filters" : [],
+    "postProcessors" : [ 
+        {
+            "order" : NumberLong(1),
+            "postProcess" : "COMPRESSION",
+            "compressionMethod" : "ZIP"
+        }
+    ]
+}
+;

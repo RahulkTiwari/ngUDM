@@ -1,0 +1,28 @@
+{
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "instrument" : {
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "269037664"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "BondIssueStatusMap"
+                }
+            }
+        },
+        "callRedemptions" : [ 
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

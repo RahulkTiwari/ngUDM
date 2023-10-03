@@ -1,0 +1,229 @@
+{
+    "_id" : ObjectId("5b4826bc32178c36f4174d70"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [],
+        "instrumentTypeCode" : {
+            "RDU" : {
+                "comment" : "Junit",
+                "value" : {
+                    "val" : "OPT"
+                }
+            }
+        },
+        "currentSecuritiesOutstandingDate" : {
+            "FEED" : {
+                "value" : ISODate("2018-03-25T18:30:00.000Z")
+            }
+        },
+        "depositaryReceiptsPerShare" : {
+            "FEED" : {
+                "value" : NumberDecimal("123.0")
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "1",
+                            "documentId" : ObjectId("5b4826bc32178c36f4173d52")
+                        }
+                    }
+                }
+            }
+        ],
+        "lipperId" : {
+            "FEED" : {
+                "value" : "lipperId"
+            }
+        },
+        "measurementUnitName" : {
+            "RDU" : {
+                "comment" : "Junit",
+                "value" : {
+                    "val" : "CME",
+                    "val2" : "EL"
+                }
+            }
+        },
+        "rightsIssueRecordDate" : {
+            "FEED" : {
+                "value" : ISODate("2018-03-25T18:30:00.000Z")
+            }
+        },
+        "rule13FSecuritiesFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "Y"
+                }
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                },
+                "bbgIdBbSecNumDes" : {
+                    "FEED" : {
+                        "value" : "bbgId"
+                    }
+                },
+                "bbgTicker" : {
+                    "FEED" : {
+                        "value" : "TickerVal"
+                    }
+                },
+                "lastDividendExDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-25T18:30:00.000Z")
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "value" : "YEARLY"
+                    }
+                },
+                "expirationDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-11-27T18:30:00.000Z")
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Y"
+                        }
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+							"val" : "AFN",
+							"domain" : "currencyCodesMap"
+						}
+                    }
+                }
+            }, 
+            {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "bbgIdBbSecNumDes" : {
+                    "FEED" : {
+                        "value" : "bbgId"
+                    }
+                },
+                "bbgTicker" : {
+                    "FEED" : {
+                        "value" : "TickerVal"
+                    }
+                },
+                "lastDividendExDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-25T18:30:00.000Z")
+                    }
+                },
+                "lastDividendType" : {
+                    "FEED" : {
+                        "value" : "YEARLY"
+                    }
+                },
+                "expirationDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2018-03-25T18:30:00.000Z")
+                    }
+                },
+                "shortSellEligibleFlag" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Y"
+                        }
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "trQuote"
+                    }
+                }
+            },
+             {
+                "audit" : [],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "rduSecurityType" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "Technical"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "strikePriceCurrencyCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "AED"
+                }
+            }
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

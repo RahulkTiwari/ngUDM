@@ -1,0 +1,12 @@
+pymongo>=4.3.3
+requests>=2.28.1
+bs4>=0.0.1
+beautifulsoup4>=4.12.2
+playwright>=1.32.1
+pandas>=2.0.0
+tabula-py>=2.7.0
+xlrd>=2.0.1
+pdfminer.six>=20221105
+pytz>=2023.3
+requests_html>=0.10.0
+openpyxl>=3.1.2

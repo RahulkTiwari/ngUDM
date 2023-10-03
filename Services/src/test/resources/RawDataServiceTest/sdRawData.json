@@ -1,0 +1,111 @@
+{
+    "_id" : ObjectId("604f05bab2263722e3b75112"),
+    "version" : NumberLong(0),
+    "rawSourceUniqueCode" : {
+        "FEED" : {
+            "value" : "232769515109"
+        }
+    },
+    "rawDataRecord" : {
+        "FEED" : {
+            "value" : "{\"Reference\":{\"Putable_Flag\":\"N\",\"Next_Put_Date\":\"\",\"Defeasable_Flag\":\"N\",\"Financial_Instrument_Short_Name\":\"\",\"Callable_Flag\":\"N\",\"Last_Coupon_Date_Before_Maturity\":\"\",\"Pay_In_Kind_Flag\":\"N\",\"Active_Instrument_Flag\":\"Y\",\"CFI_Code\":\"DBZNFM\",\"Next_Call_Date\":\"\",\"Private_Placement_Flag\":\"N\",\"First_Coupon_Date\":\"\",\"Guaranteed_Flag\":\"N\",\"Sinkable_Flag\":\"N\",\"Puttable_Notation\":\"\",\"Level\":\"A\",\"Refinitiv_Classification_Code\":\"BOND\",\"Coupon_Rate\":\"0\",\"Tax_Call_Flag\":\"N\",\"Action\":\"U\",\"Coupon_Type_Code\":\"FXZC\",\"DS_Type_Code\":\"CORP\",\"Price_Quotes_Include_Accrued_Interest_Flag\":\"N\",\"Tap_Issue_Flag\":\"N\",\"Withholding_Tax\":\"\",\"CUSIP\":\"22552X6U2\",\"Preferred_RIC\":\"US22552X6U21=CSSL\",\"Underlying_ISIN\":\"\",\"Par_Value\":\"1000\",\"Issue_Date\":\"20210208\",\"Security_Description\":\"CSGN         09/28/22 MTN\",\"Strippable_Flag\":\"N\",\"Seniority_Code\":\"SR\",\"Initial_Physical_Form\":\"REG\",\"Primary_Country_Of_Issue\":\"US\",\"Callable_Notation\":\"\",\"Redemption_Value\":\"\",\"DS_Subtype_Code\":\"CFIN\",\"Issue_Perm_ID\":\"232769515109\",\"Next_Put_Price\":\"\",\"Underlying_Issue_Perm_ID\":\"\",\"Short_Security_Name\":\"Zero Sr Index MTN due 2022\",\"Warrants_Flag\":\"N\",\"ISIN\":\"US22552X6U21\",\"Inflation_Protection_Flag\":\"N\",\"Asset_ID\":\"0x00102c8e505c2799\",\"Series\":\"\",\"Total_Amount_Issued\":\"8498\",\"Convertible_Flag\":\"N\",\"Next_Call_Price\":\"\",\"Pay_In_Part_Flag\":\"N\",\"Organization_Perm_ID\":\"5079890526\",\"Maturity_Date\":\"20220928\",\"Currency_Code\":\"USD\",\"Next_Interest_Rate_Reset_Date\":\"\",\"Current_Amount_Outstanding\":\"8498\"},\"Issue_Perm_ID\":\"232769515109\"}"
+        }
+    },
+    "codeHash" : {
+        "FEED" : {
+            "value" : "0f46b03a40bb387517b894bd0eb7688e"
+        }
+    },
+    "feedExecutionDetailId" : {
+        "FEED" : {}
+    },
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "rdsp"
+            }
+        }
+    },
+    "rawDataStatus" : {
+        "FEED" : {
+            "value" : {
+                "val" : "A"
+            }
+        }
+    },
+    "rawDataLevel" : {
+        "FEED" : {
+            "value" : "INS"
+        }
+    },
+    "fileType" : {
+        "FEED" : {
+            "value" : "CONSOLIDATED_INS"
+        }
+    },
+    "insDate" : {
+        "FEED" : {
+            "value" : ISODate("2021-03-15T06:59:06.478Z")
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdRawData"
+}
+;
+{
+    "_id" : ObjectId("63b40ec19eb4512be6a06b63"),
+    "rawSourceUniqueCode" : {
+        "FEED" : {
+            "value" : "17036211"
+        }
+    },
+    "rawDataRecord" : {
+        "FEED" : {
+            "value" : "{\"master_information\":{\"organization_master\":{\"org_country_code\":\"GB\",\"organization_xref\":{\"xref\":[{\"_VALUE\":\"INCO\",\"_type_id\":25,\"_type\":\"Issuer Code\",\"_entity_level\":\"issuer\"}]},\"organization_type\":{\"_VALUE\":67},\"_id\":22035930,\"primary_name\":\"Inhoco 3236\",\"primary_name_abbreviated\":\"INHOCO 3236\",\"organization_status\":{\"_VALUE\":6}},\"instrument_master\":{\"instrument_status\":{\"_VALUE\":1},\"eval_quotation_basis\":{\"_VALUE\":1},\"federal_tax_status\":{\"_VALUE\":3},\"apex_asset_type\":{\"_VALUE\":7},\"child_issue_ind\":false,\"country_of_risk\":\"GB\",\"primary_currency_code\":\"GBP\",\"instrument_type\":{\"_VALUE\":4},\"primary_name\":\"ORD NPV\",\"primary_name_abbreviated\":\"ORD NPV\"},\"instrument_xref\":{},\"market_master\":{\"market\":[{\"listing_trading_status\":{\"_VALUE\":1},\"xref\":[{\"_VALUE\":\"0BFBH60\",\"_type_id\":4,\"_type\":\"IDII\",\"_status\":\"Live\"}],\"country_of_quotation\":\"GB\",\"never_priced_indicator\":false,\"_id\":0,\"currency_code\":\"GBP\",\"quotation_basis\":{\"_VALUE\":1},\"_primary\":true}]}},\"_id\":17036211,\"global_information\":{\"organization_information\":{\"classifications\":{}},\"instrument_details\":{}},\"equity\":{\"equity_details\":{\"equity_type\":{\"_VALUE\":1},\"par_value\":{\"_currency\":\"BAM\",\"_VALUE\":16.0},\"shares_beneficial_int_flag\":false,\"voting_rights_per_share\":1.0,\"ptm_levy_flag\":79,\"total_shares_outstanding\":{\"_VALUE\":1.5E7,\"_effective_date\":\"2003-06-06\"},\"shares_outstanding\":{\"_VALUE\":1.0375E8,\"_effective_date\":\"2019-04-10\"},\"capital_gains_tax_type\":{\"_VALUE\":1},\"stamp_duty_type\":{\"_VALUE\":2},\"voting_rights_code\":{\"_VALUE\":9},\"instrument_form\":{\"_VALUE\":1}}}}"
+        }
+    },
+    "codeHash" : {
+        "FEED" : {
+            "value" : "98a5068e8c2d302a734a8b04eb05674b"
+        }
+    },
+    "feedExecutionDetailId" : {
+        "FEED" : {}
+    },
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "rawDataStatus" : {
+        "FEED" : {
+            "value" : {
+                "val" : "A"
+            }
+        }
+    },
+    "rawDataLevel" : {
+        "FEED" : {
+            "value" : "INS"
+        }
+    },
+    "fileType" : {
+        "FEED" : {
+            "value" : "IDC APEX GSM Equity"
+        }
+    },
+    "insDate" : {
+        "FEED" : {
+            "value" : ISODate("2023-01-03T11:17:21.092Z")
+        }
+    },
+    "updDate" : {
+        "FEED" : {
+            "value" : ISODate("2023-01-03T11:24:10.279Z")
+        }
+    },
+    "version" : NumberLong(1),
+    "_class" : "com.smartstreamrdu.persistence.domain.SdRawData"
+}
+;

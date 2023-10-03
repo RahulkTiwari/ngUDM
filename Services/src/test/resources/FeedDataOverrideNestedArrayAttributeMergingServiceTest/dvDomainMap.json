@@ -1,0 +1,104 @@
+{
+    "_id" : ObjectId("5f10690084694e607b5d3f28"),
+    "__level" : "DV_DOMAIN_MAP",
+    "normalizedValue" : {
+        "RDU" : {
+            "value" : "FCLONG"
+        }
+    },
+    "rduDomain" : {
+        "RDU" : {
+            "value" : "snpRatingTypeCodes"
+        }
+    },
+    "vendorMappings" : [ 
+        {
+            "domainName" : {
+                "RDU" : {
+                    "value" : "ratingTypeCodeMap"
+                }
+            },
+            "domainSource" : {
+                "RDU" : {
+                    "value" : "snpXf"
+                }
+            },
+            "domainValue" : {
+                "RDU" : {
+                    "value" : {
+                        "val" : "FCLONG"
+                    }
+                }
+            },
+            "status" : {
+                "RDU" : {
+                    "value" : "A"
+                }
+            }
+        }
+    ],
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-07-16T14:49:36.613Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    },
+    "version" : NumberLong(0)
+}
+;
+{
+    "_id" : ObjectId("5f10690084694e607b5d3f2d"),
+    "__level" : "DV_DOMAIN_MAP",
+    "normalizedValue" : {
+        "RDU" : {
+            "value" : "STDLONG"
+        }
+    },
+    "rduDomain" : {
+        "RDU" : {
+            "value" : "snpRatingTypeCodes"
+        }
+    },
+    "vendorMappings" : [ 
+        {
+            "domainName" : {
+                "RDU" : {
+                    "value" : "ratingTypeCodeMap"
+                }
+            },
+            "domainSource" : {
+                "RDU" : {
+                    "value" : "snpXf"
+                }
+            },
+            "domainValue" : {
+                "RDU" : {
+                    "value" : {
+                        "val" : "STDLONG"
+                    }
+                }
+            },
+            "status" : {
+                "RDU" : {
+                    "value" : "A"
+                }
+            }
+        }
+    ],
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-07-16T14:49:36.613Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    },
+    "version" : NumberLong(0)
+}
+;

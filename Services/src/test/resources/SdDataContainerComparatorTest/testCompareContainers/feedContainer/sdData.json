@@ -1,0 +1,763 @@
+{
+    "_id" : ObjectId("5e207322430d9c29dc683648"),
+    "version" : NumberLong(48),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "trdse"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-01-16T14:28:50.916Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600111.V"
+            }, 
+            {
+                "auditIndex" : 1,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-01-16T20:18:01.996Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850111.V"
+            }, 
+            {
+                "auditIndex" : 2,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-01-19T01:08:48.059Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600118.V"
+            }, 
+            {
+                "auditIndex" : 3,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-01-19T06:46:46.217Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850118.V"
+            }, 
+            {
+                "auditIndex" : 4,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-01-25T02:14:46.509Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600125.V"
+            }, 
+            {
+                "auditIndex" : 5,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-01-25T12:06:12.930Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850125.V"
+            }, 
+            {
+                "auditIndex" : 6,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-01-28T16:21:25.831Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600125.V"
+            }, 
+            {
+                "auditIndex" : 7,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-01-29T02:40:47.032Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850125.V"
+            }, 
+            {
+                "auditIndex" : 8,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-01T03:48:30.284Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600201.V"
+            }, 
+            {
+                "auditIndex" : 9,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-01T09:23:02.861Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850201.V"
+            }, 
+            {
+                "auditIndex" : 10,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-08T02:22:15.246Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600208.V"
+            }, 
+            {
+                "auditIndex" : 11,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-08T08:14:07.486Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850208.V"
+            }, 
+            {
+                "auditIndex" : 12,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-15T04:44:04.537Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600215.V"
+            }, 
+            {
+                "auditIndex" : 13,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-15T11:56:21.791Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850215.V"
+            }, 
+            {
+                "auditIndex" : 14,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-22T04:48:21.824Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600222.V"
+            }, 
+            {
+                "auditIndex" : 15,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-22T15:17:48.463Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850222.V"
+            }, 
+            {
+                "auditIndex" : 16,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-29T04:22:02.559Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600229.V"
+            }, 
+            {
+                "auditIndex" : 17,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-29T17:04:50.560Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850229.V"
+            }, 
+            {
+                "auditIndex" : 18,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-07T04:53:49.427Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600307.V"
+            }, 
+            {
+                "auditIndex" : 19,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-07T13:38:15.892Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850307.V"
+            }, 
+            {
+                "auditIndex" : 20,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-14T04:38:02.959Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600314.V"
+            }, 
+            {
+                "auditIndex" : 21,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-14T21:41:38.466Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850314.V"
+            }, 
+            {
+                "auditIndex" : 22,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-21T05:16:34.683Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600321.V"
+            }, 
+            {
+                "auditIndex" : 23,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-21T19:28:39.211Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850321.V"
+            }, 
+            {
+                "auditIndex" : 24,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-22T23:56:17.322Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600322.W"
+            }, 
+            {
+                "auditIndex" : 25,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-23T01:08:57.544Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850322.W"
+            }, 
+            {
+                "auditIndex" : 26,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-28T05:17:00.204Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600328.V"
+            }, 
+            {
+                "auditIndex" : 27,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-28T17:38:28.263Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850328.V"
+            }, 
+            {
+                "auditIndex" : 28,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-29T02:05:37.784Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600328.W"
+            }, 
+            {
+                "auditIndex" : 29,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-03-29T03:37:08.811Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850328.W"
+            }, 
+            {
+                "auditIndex" : 30,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-04T03:40:00.704Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600404.V"
+            }, 
+            {
+                "auditIndex" : 31,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-04T16:06:51.248Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850404.V"
+            }, 
+            {
+                "auditIndex" : 32,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-05T22:58:28.730Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600405.W"
+            }, 
+            {
+                "auditIndex" : 33,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-06T00:03:11.799Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850405.W"
+            }, 
+            {
+                "auditIndex" : 34,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-13T00:49:34.952Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600411.V"
+            }, 
+            {
+                "auditIndex" : 35,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-13T19:56:16.593Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850411.V"
+            }, 
+            {
+                "auditIndex" : 36,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-18T02:00:48.549Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600418.V"
+            }, 
+            {
+                "auditIndex" : 37,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-18T21:19:22.086Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850418.V"
+            }, 
+            {
+                "auditIndex" : 38,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-05-09T02:25:02.570Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600509.V"
+            }, 
+            {
+                "auditIndex" : 39,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-05-09T21:17:53.468Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850509.V"
+            }, 
+            {
+                "auditIndex" : 40,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-06-06T02:20:30.953Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600606.V"
+            }, 
+            {
+                "auditIndex" : 41,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-06-06T13:17:31.938Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850606.V"
+            }, 
+            {
+                "auditIndex" : 42,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-07-11T22:26:42.888Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24600711.V"
+            }, 
+            {
+                "auditIndex" : 43,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-07-13T04:45:13.827Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850711.V"
+            }, 
+            {
+                "auditIndex" : 44,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2021-03-21T00:05:05.043Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850320.V"
+            }, 
+            {
+                "auditIndex" : 45,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2021-03-27T11:56:56.175Z"),
+                "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850327.V"
+            }
+        ],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "a2124148-aace-47fc-ba2f-a2232f8939c5"
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "EIW",
+                    "domain" : "trcsMap"
+                }
+            }
+        },
+        "australiaInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "austrianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "belgianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "brazilianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cfiCode" : {
+            "FEED" : {
+                "value" : "EYCYFI"
+            }
+        },
+        "cins" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "commonCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cumulativeFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "depositaryReceiptTypeCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "depositaryReceiptsPerShare" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "dutchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "exerciseStyleCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "E",
+                    "domain" : "exerciseStyleMap"
+                }
+            }
+        },
+        "fisn" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "frenchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fttFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fundType" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "hongKongInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "c49548e6-2ea8-4738-a81f-759f63f690b3",
+                            "documentId" : ObjectId("5e201a26430d9c29dc51992b")
+                        }
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "10459"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {}
+                },
+                "refData" : {
+                    "audit" : [],
+                    "securities" : [ 
+                        {
+                            "audit" : [],
+                            "ric" : {
+                                "FEED" : {
+                                    "value" : ".STOXX50E"
+                                }
+                            },
+                            "trQuoteId" : {
+                                "FEED" : {
+                                    "value" : "0x0003dc0049d6d090"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "0x00100b001d893e60"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "DE000DF4H0G3"
+            }
+        },
+        "japanSiccId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "legalFormType" : {
+            "FEED" : {
+                "value" : "B"
+            }
+        },
+        "malaysiaInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "nameLong" : {
+            "FEED" : {
+                "value" : "DZ Bank AG Call 3800 EUR EURO STOXX 50 26Mar21"
+            }
+        },
+        "putCallIndicator" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "rduInactivationDate" : {
+            "ENRICHED" : {
+                "value" : ISODate("2021-04-02T00:00:00.000Z")
+            }
+        },
+        "rule13FSecuritiesFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "rule144AFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2021-03-27T11:56:56.175Z"),
+                        "fileName" : "/daq01/camel/equities/data/uncompress/.done/24850327.V"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "3"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5e20c44409a36d4855e0ae8e"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "EUWX",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "segmentMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "EUWX",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "operatingMic" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XSTU",
+                            "domain" : "marketSegmentMicMap"
+                        }
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "expirationDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2021-03-26T00:00:00.000Z")
+                    }
+                },
+                "lastTradeDate" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "listingDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2019-07-12T00:00:00.000Z")
+                    }
+                },
+                "officialPlaceOfListingMic" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "primaryRicFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ric" : {
+                    "FEED" : {
+                        "value" : "DEDF4H0G.EW^C21"
+                    }
+                },
+                "roundLotSize" : {
+                    "FEED" : {
+                        "value" : NumberLong(1)
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "0x00100b001d8acb11"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "stampDutyReserveTaxFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "trQuoteId" : {
+                    "FEED" : {
+                        "value" : "0x00100b001d8acb11"
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "EUR",
+                            "domain" : "currencyCodesMap"
+                        }
+                    }
+                },
+                "tradingSymbol" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "whenDistributedFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "xrfAdditionalTypesMap"
+                        }
+                    }
+                },
+                "vendorExchangeCode" : {
+                    "FEED" : {
+                        "value" : "EWX"
+                    }
+                },
+                "rduSecurityType" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "Regular"
+                        }
+                    }
+                }
+            }
+        ],
+        "settlementTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "C",
+                    "domain" : "settlementTypeMap"
+                }
+            }
+        },
+        "sharesPerDepositaryReceipt" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "singaporeInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "strikePrice" : {
+            "FEED" : {
+                "value" : NumberDecimal("3800")
+            }
+        },
+        "taiwanInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "trAssetId" : {
+            "FEED" : {
+                "value" : "0x00100b001d893e60"
+            }
+        },
+        "trPrimaryIssueLevelCode" : {
+            "FEED" : {
+                "value" : "181742060"
+            }
+        },
+        "underlyingPerWarrant" : {
+            "FEED" : {
+                "value" : NumberDecimal("0.01")
+            }
+        },
+        "valoren" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "warrantsPerUnderlying" : {
+            "FEED" : {
+                "value" : NumberDecimal("100")
+            }
+        },
+        "wkn" : {
+            "FEED" : {
+                "value" : "DF4H0G"
+            }
+        },
+        "openCloseEndIndicator" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "issueDate" : {
+            "FEED" : {
+                "value" : ISODate("2019-07-12T00:00:00.000Z")
+            }
+        },
+        "countryOfTaxationCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-01-16T14:28:50.916Z")
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-03-28T00:48:30.162Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

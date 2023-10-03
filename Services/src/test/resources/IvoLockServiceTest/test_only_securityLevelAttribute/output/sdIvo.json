@@ -1,0 +1,68 @@
+{
+    "_id" : ObjectId("5d8e12f672d09a4424388ff3"),
+    "version" : NumberLong(0),
+    "docType" : {
+        "RDU" : {
+            "value" : "RDU"
+        }
+    },
+    "instrument" : {
+        "securities" : [ 
+            {
+                "securityRelations" : [ 
+                    {
+                        "relationType" : {
+                            "RDU" : {
+                                "value" : "IVO"
+                            }
+                        },
+                        "referenceId" : {
+                            "RDU" : {
+                                "value" : {
+                                    "objectId" : "RDUNSE000000000001",
+                                    "documentId" : "5c6d5419f23a5e69a44c7d5f"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "ric" : {
+                    "RDU" : {
+                        "value" : "BIT.NZ"
+                    }
+                },
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "updateDate" : ISODate("2019-09-27T13:47:34.477Z")
+                    }
+                ]
+            }
+        ],
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "updateDate" : ISODate("2019-09-27T13:47:34.477Z")
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "RDU" : {
+                        "value" : "IVO"
+                    }
+                },
+                "referenceId" : {
+                    "RDU" : {
+                        "value" : {
+                            "objectId" : "RDUNIN000000000001",
+                            "documentId" : "5c6d5419f23a5e69a44c7d5f"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdIvo"
+}
+;

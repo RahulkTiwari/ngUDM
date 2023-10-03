@@ -1,0 +1,130 @@
+{
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "instrument" : {
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "269037664"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "BondIssueStatusMap"
+                }
+            }
+        },
+        "callRedemptions" : [ 
+            {
+                "callSchedules" : [ 
+                    {
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2019-09-26"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("105")
+                            }
+                        }
+                    },
+					{
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2018-02-16"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("200")
+                            }
+                        }
+                    }
+                ],
+                "callId" : {
+                    "FEED" : {
+                        "value" : "269663204"
+                    }
+                },
+                "callStartDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2019-09-25T09:30:00.000Z")
+                    }
+                }
+            },
+			{
+                "callSchedules" : [ 
+                    {
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2020-01-29"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("150")
+                            }
+                        }
+                    }
+                ],
+                "callId" : {
+                    "FEED" : {
+                        "value" : "309663204"
+                    }
+                },
+                "callStartDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2020-07-22T17:35:00.000Z")
+                    }
+                }
+            },
+			{
+                "callSchedules" : [ 
+                    {
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2017-04-05"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("199")
+                            }
+                        }
+                    },
+					{
+                        "callScheduleId" : {
+                            "FEED" : {
+                                "value" : "2018-03-11"
+                            }
+                        },
+                        "callPrice" : {
+                            "FEED" : {
+                                "value" : NumberDecimal("211")
+                            }
+                        }
+                    }
+                ],
+                "callId" : {
+                    "FEED" : {
+                        "value" : "269973312"
+                    }
+                },
+                "callStartDate" : {
+                    "FEED" : {
+                        "value" : ISODate("2021-11-18T18:30:00.000Z")
+                    }
+                }
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

@@ -1,0 +1,85 @@
+{
+    "__level" : "DV_DOMAIN_MAP",
+    "normalizedValue" : {
+        "RDU" : {
+            "value" : "5199"
+        }
+    },
+    "rduDomain" : {
+        "RDU" : {
+            "value" : "assetClassifications"
+        }
+    },
+    "vendorMappings" : [ 
+        {
+            "domainName" : {
+                "RDU" : {
+                    "value" : "assetTypeMap"
+                }
+            },
+            "domainSource" : {
+                "RDU" : {
+                    "value" : "figi"
+                }
+            },
+            "domainValue" : {
+                "RDU" : {
+                    "value" : {
+                        "val" : "5199"
+                    }
+                }
+            },
+            "status" : {
+                "RDU" : {
+                    "value" : "A"
+                }
+            }
+        }, 
+        {
+            "domainName" : {
+                "RDU" : {
+                    "value" : "trcsMap"
+                }
+            },
+            "domainSource" : {
+                "RDU" : {
+                    "value" : "trds"
+                }
+            },
+            "domainValue" : {
+                "RDU" : {
+                    "value" : {
+                        "val" : "BRAZILUNT"
+                    }
+                }
+            },
+            "status" : {
+                "RDU" : {
+                    "value" : "A"
+                }
+            }
+        }
+    ],
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2019-09-18T13:01:15.528Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2019-09-18T13:01:15.528Z")
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    },
+    "version" : 0
+}
+;

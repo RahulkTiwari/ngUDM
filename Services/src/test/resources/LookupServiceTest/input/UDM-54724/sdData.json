@@ -1,0 +1,612 @@
+{
+    "_id" : ObjectId("612739e23377e365b2b20a54"),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "idcApex"
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-08-26T06:51:13.888Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "version" : NumberLong(0),
+    "instrument" : {
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "c09a8022-c1f6-4ead-a76e-e0b6e82de11f"
+            }
+        },
+        "insRawDataId" : {
+            "FEED" : {
+                "value" : "612739dc3377e365b2b20a52"
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {
+                        "value" : {
+                            "objectId" : "2d9100f5-7b43-4739-a636-74596790c38e",
+                            "documentId" : ObjectId("612739e03377e365b2b20a53")
+                        }
+                    }
+                },
+                "refData" : {
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "116860614"
+                        }
+                    },
+                    "audit" : []
+                }
+            }
+        ],
+        "instrumentRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Underlying"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {}
+                },
+                "refData" : {
+                    "securities" : [ 
+                        {
+                            "securitySourceUniqueId" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            },
+                            "exchangeTicker" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            },
+                            "sedol" : {
+                                "FEED" : {
+                                    "errorCode" : 103
+                                }
+                            },
+                            "audit" : []
+                        }
+                    ],
+                    "cusip" : {
+                        "FEED" : {
+                            "errorCode" : 103
+                        }
+                    },
+                    "isin" : {
+                        "FEED" : {
+                            "errorCode" : 103
+                        }
+                    },
+                    "audit" : []
+                },
+                "lookupLevel" : {
+                    "RDU" : {}
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "322411837"
+            }
+        },
+        "securities" : [ 
+            {
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "378713402"
+                    }
+                },
+                "rduSecurityType" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "Regular"
+                        }
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "exchangeTicker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    },
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "A"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "shHkStockConnectEligibleFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "stampDutyReserveTaxFlag" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "errorCode" : 103
+                    }
+                },
+                "tradeCountryCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "CA",
+                            "domain" : "isoCountryMap"
+                        }
+                    }
+                },
+                "tradeCurrencyCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "CAD",
+                            "domain" : "isoCurrencyMap"
+                        }
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default",
+                            "domain" : "xrfAdditionalTypesMap"
+                        }
+                    }
+                },
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2021-08-26T06:51:13.888Z"),
+                        "fileName" : "C:\\Data\\TestData\\IDC\\gsm_update_corp_APSMRTST_GSMF_1.xml"
+                    }
+                ]
+            }
+        ],
+        "bearerFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "13",
+                    "domain" : "BondFormTypeBearerFlagMap"
+                }
+            }
+        },
+        "belgianInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "benchmarkNameAtIssue" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "bookEntryFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "13",
+                    "domain" : "BondFormTypeBookEntryFlagMap"
+                }
+            }
+        },
+        "callableFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "false",
+                    "domain" : "BooleanMap"
+                }
+            }
+        },
+        "cfiCode2015" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "cins" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "commonCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "convertibleFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "false",
+                    "domain" : "BooleanMap"
+                }
+            }
+        },
+        "couponPaymentCurrencyCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "CAD",
+                    "domain" : "isoCurrencyMap"
+                }
+            }
+        },
+        "couponRate" : {
+            "FEED" : {
+                "value" : NumberDecimal("0")
+            }
+        },
+        "couponType" : {
+            "FEED" : {
+                "value" : "Zero coupon"
+            }
+        },
+        "currentAmountOutstanding" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "currentNominalAmount" : {
+            "FEED" : {
+                "value" : NumberDecimal("1000")
+            }
+        },
+        "currentNominalCurrencyCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "CAD",
+                    "domain" : "isoCurrencyMap"
+                }
+            }
+        },
+        "cusip" : {
+            "FEED" : {
+                "value" : "3142ZBG99"
+            }
+        },
+        "danishInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "datedDate" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "dayCountConventionType" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "5",
+                    "domain" : "dayCountConventionMap"
+                }
+            }
+        },
+        "defeasableFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "false",
+                    "domain" : "BooleanMap"
+                }
+            }
+        },
+        "dutchInstrumentId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "firstCouponDate" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "fisn" : {
+            "FEED" : {
+                "value" : "0% BDS 09/07/2021 CAD"
+            }
+        },
+        "guaranteedFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "3",
+                    "domain" : "DebtGuaranteedFlagMap"
+                }
+            }
+        },
+        "inflationLinkedFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "7",
+                    "domain" : "InflationLinkedFlagMap"
+                }
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "BondIssueStatusMap"
+                }
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "ApexAssetTypeMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "CA3142ZBG992"
+            }
+        },
+        "issueCountryCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "CA",
+                    "domain" : "isoCountryMap"
+                }
+            }
+        },
+        "issueDate" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "issuePrice" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "issuePriceCurrencyCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "CAD",
+                    "domain" : "isoCurrencyMap"
+                }
+            }
+        },
+        "japanQuickId" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "legalFormType" : {
+            "FEED" : {
+                "value" : "Book Entry"
+            }
+        },
+        "maturityDate" : {
+            "FEED" : {
+                "value" : ISODate("2021-07-08T18:30:00.000Z")
+            }
+        },
+        "nameLong" : {
+            "FEED" : {
+                "value" : "0% DEP NTS 09/07/2021 CAD"
+            }
+        },
+        "nameShort" : {
+            "FEED" : {
+                "value" : "0% BDS 09/07/2021 CAD"
+            }
+        },
+        "nextCallDate" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "nextCallPrice" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "nextCouponRateResetDate" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "nextPutDate" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "nextPutPrice" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "originalAmountIssued" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "paymentInKindFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "false",
+                    "domain" : "BooleanMap"
+                }
+            }
+        },
+        "perpetualFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "PerpetualFlagMap"
+                }
+            }
+        },
+        "priceIncludesAccruedInterestFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "false",
+                    "domain" : "BooleanMap"
+                }
+            }
+        },
+        "primaryExchangeCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "privatePlacementFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "putableFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "false",
+                    "domain" : "BooleanMap"
+                }
+            }
+        },
+        "redemptionPrice" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "redemptionPriceCurrencyCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "CAD",
+                    "domain" : "isoCurrencyMap"
+                }
+            }
+        },
+        "registeredFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "13",
+                    "domain" : "BondFormTypeRegisteredFlagMap"
+                }
+            }
+        },
+        "regSFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "resetIndexTenorCode" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "rule144AFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "seniorityCode" : {
+            "FEED" : {
+                "value" : "Not Applicable"
+            }
+        },
+        "series" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "sinkableFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "false",
+                    "domain" : "BooleanMap"
+                }
+            }
+        },
+        "spreadToBenchmarkAtIssue" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "strippableFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "false",
+                    "domain" : "BooleanMap"
+                }
+            }
+        },
+        "taxLawChangeCallableFlag" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "valoren" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "warrantsAttachedFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "false",
+                    "domain" : "BooleanMap"
+                }
+            }
+        },
+        "withholdingTaxExemptFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "3",
+                    "domain" : "WithHoldingTaxExemptFlagMap"
+                }
+            }
+        },
+        "wkn" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2021-08-26T06:51:13.888Z"),
+                "fileName" : "C:\\Data\\TestData\\IDC\\gsm_update_corp_APSMRTST_GSMF_1.xml"
+            }
+        ]
+    },
+    "_class" : "com.smartstreamrdu.persistence.domain.SdData"
+}
+;

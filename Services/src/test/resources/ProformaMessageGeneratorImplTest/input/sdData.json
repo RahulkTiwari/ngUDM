@@ -1,0 +1,259 @@
+{
+    "_id" : ObjectId("5e4e4b1ce8436561ee02984f"),
+    "version" : NumberLong(1),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "gleifGc"
+            }
+        }
+    },
+    "legalEntity" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-20T09:02:20.742Z"),
+                "fileName" : "E:\\TestData\\glief\\1\\\\2.xml"
+            }, 
+            {
+                "auditIndex" : 1,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-20T09:03:35.199Z"),
+                "fileName" : "E:\\TestData\\glief\\1\\\\3.xml"
+            }
+        ],
+        "_legalEntityId" : {
+            "FEED" : {
+                "value" : "461f61a7-b232-42f8-ae80-99216336df00"
+            }
+        },
+        "leRawDataId" : {
+            "FEED" : {
+                "value" : "5e4e4b66e8436561ee029852"
+            }
+        },
+        "branchFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "FUND",
+                    "domain" : "entityCategoryMap"
+                }
+            }
+        },
+        "legalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Branch"
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "errorCode" : 103
+                        }
+                    },
+                    "lei" : {
+                        "FEED" : {
+                            "errorCode" : 103
+                        }
+                    }
+                }
+            }, 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Ultimate Parent"
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "C7J4FOV6ELAVE39B7M83"
+                        }
+                    },
+                    "lei" : {
+                        "FEED" : {
+                            "value" : "C7J4FOV6ELAVE39B7M83"
+                        }
+                    }
+                }
+            }, 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Immediate Parent"
+                    }
+                },
+                "refData" : {
+                    "audit" : [],
+                    "legalEntitySourceUniqueId" : {
+                        "FEED" : {
+                            "value" : "C7J4FOV6ELAVE39B7M82"
+                        }
+                    },
+                    "lei" : {
+                        "FEED" : {
+                            "value" : "C7J4FOV6ELAVE39B7M82"
+                        }
+                    }
+                }
+            }
+        ],
+        "legalEntitySourceUniqueId" : {
+            "FEED" : {
+                "value" : "001GPB6A9XPE8XJICC14"
+            }
+        },
+        "legalEntityStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "ACTIVE",
+                    "domain" : "entityStatusMap"
+                }
+            }
+        },
+        "legalJurisdictionCountryCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "US",
+                    "domain" : "entityLegalJurisdictionCountryMap"
+                }
+            }
+        },
+        "legalEntityStructure" : {
+            "FEED" : {
+                "value" : "OTHER"
+            }
+        },
+        "lei" : {
+            "FEED" : {
+                "value" : "001GPB6A9XPE8XJICC14"
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-02-20T09:02:20.742Z")
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-02-20T09:03:35.199Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;
+
+{
+    "_id" : ObjectId("5e4e4b1ce8436561ee029850"),
+    "version" : NumberLong(1),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "gleifGc"
+            }
+        }
+    },
+    "legalEntity" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-20T09:02:20.781Z"),
+                "fileName" : "E:\\TestData\\glief\\1\\\\2.xml"
+            }, 
+            {
+                "auditIndex" : 1,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-02-20T09:07:47.842Z"),
+                "fileName" : "E:\\TestData\\glief\\1\\\\5.xml"
+            }
+        ],
+        "_legalEntityId" : {
+            "FEED" : {
+                "value" : "f8523fa9-3422-4459-b606-067f75aff809"
+            }
+        },
+        "leRawDataId" : {
+            "FEED" : {
+                "value" : "5e4e4b1ce8436561ee02984c"
+            }
+        },
+        "branchFlag" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "FUND",
+                    "domain" : "entityCategoryMap"
+                }
+            }
+        },
+        "legalEntitySourceUniqueId" : {
+            "FEED" : {
+                "value" : "C7J4FOV6ELAVE39B7M83"
+            }
+        },
+        "legalEntityStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "ACTIVE",
+                    "domain" : "entityStatusMap"
+                }
+            }
+        },
+        "legalJurisdictionCountryCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "FR",
+                    "domain" : "entityLegalJurisdictionCountryMap"
+                }
+            }
+        },
+        "legalEntityStructure" : {
+            "FEED" : {
+                "value" : "OTHER"
+            }
+        },
+        "lei" : {
+            "FEED" : {
+                "value" : "C7J4FOV6ELAVE39B7M83"
+            }
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-02-20T09:02:20.781Z")
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-02-20T09:07:47.842Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

@@ -1,0 +1,36 @@
+{
+    "_id" : ObjectId("60521b00d6afe157681c90ef"),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "rduEns"
+            }
+        }
+    },
+    "eventSourceUniqueId" : {
+        "FEED" : {
+            "value" : "ABC.1.1234"
+        }
+    },
+    "exchangeCode" : {
+        "RDU" : {
+            "value" : {
+                "normalizedValue" : "XNYS",
+            }
+        }
+    },
+    "newExchangeCode" : {
+        "RDU" : {
+            "value" : {
+                "normalizedValue" : "XLON",
+            }
+        }
+    },
+    "exchangeSourceName" : {
+        "RDU" : {
+            "value" : "HEFK"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.EnData"
+}
+;

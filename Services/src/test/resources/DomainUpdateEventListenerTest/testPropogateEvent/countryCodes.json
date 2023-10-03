@@ -1,0 +1,33 @@
+{
+    "status" : {
+        "RDU" : {
+            "value" : "A"
+        }
+    },
+    "code" : {
+        "RDU" : {
+            "value" : "AD"
+        }
+    },
+    "name" : {
+        "RDU" : {
+            "value" : "ANDORRA"
+        }
+    },
+    "countryCodeSource" : {
+        "RDU" : {
+            "value" : "ISO 3166-1 alpha-2"
+        }
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2019-09-20T06:04:30.508Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "DRD"
+        }
+    }
+}
+;

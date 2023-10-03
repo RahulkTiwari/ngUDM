@@ -1,0 +1,185 @@
+{
+    "_id" : ObjectId("6007d513b14f2841990eba31"),
+    "version" : NumberLong(0),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "figi"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2021-01-20T06:56:30.887Z")
+            }
+        ],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "4fc38160-b254-415d-b0de-bcba7ba3d472"
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "5101",
+                    "domain" : "assetTypeMap"
+                }
+            }
+        },
+        "bbgIdBbGlobalShareClassLevel" : {
+            "FEED" : {
+                "value" : "BBG008NZ8QB1"
+            }
+        },
+        "bbgMarketSectorDes" : {
+            "FEED" : {
+                "value" : "Equity"
+            }
+        },
+        "bbgSecurityTyp" : {
+            "FEED" : {
+                "value" : "Common Stock"
+            }
+        },
+        "bbgSecurityTyp2" : {
+            "FEED" : {
+                "value" : "Common Stock"
+            }
+        },
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "BBG008NZ8QB1"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "tradingStatusMap"
+                }
+            }
+        },
+        "nameLong" : {
+            "FEED" : {
+                "value" : "ASSOCIATED CAPITAL GROUP - A"
+            }
+        },
+        "securities" : [ 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2021-01-20T06:56:30.887Z")
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "1"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "6006f210b14f2841990eba32"
+                    }
+                },
+                "bbgCompositeIdBbGlobal" : {
+                    "FEED" : {
+                        "value" : "BBG008NZ8QC0"
+                    }
+                },
+                "bbgIdBbGlobal" : {
+                    "FEED" : {
+                        "value" : "BBG008NZ8QH5"
+                    }
+                },
+                "bbgIdBbUnique" : {
+                    "FEED" : {
+                        "value" : "EQ0000000043027560"
+                    }
+                },
+                "bbgSecurityDes" : {
+                    "FEED" : {
+                        "value" : "AC"
+                    }
+                },
+                "ticker" : {
+                    "FEED" : {
+                        "value" : "AC UN"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "XNYS",
+                            "domain" : "micCodeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "BBG008NZ8QH5"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "0",
+                            "domain" : "tradingStatusMap"
+                        }
+                    }
+                },
+                "sedol" : {
+                    "FEED" : {
+                        "value" : "BZ6VMW7"
+                    }
+                },
+                "additionalXrfParameterType" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "Default",
+                            "val2" : "Default"
+                        }
+                    }
+                },
+                "vendorExchangeCode" : {
+                    "FEED" : {
+                        "value" : "UN"
+                    }
+                },
+                "bbgCompositeTicker" : {
+                    "FEED" : {
+                        "value" : "AC US"
+                    }
+                },
+                "bbgCompositeExchangeCode" : {
+                    "FEED" : {
+                        "value" : "US"
+                    }
+                },
+                "rduSecurityType" : {
+                    "ENRICHED" : {
+                        "value" : {
+                            "normalizedValue" : "Regular"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2021-01-20T06:56:30.887Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;

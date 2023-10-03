@@ -1,0 +1,407 @@
+{
+    "_id" : ObjectId("5e92337b68acfc31020e1537"),
+    "version" : NumberLong(45),
+    "dataSource" : {
+        "FEED" : {
+            "value" : {
+                "val" : "esmaFirds"
+            }
+        }
+    },
+    "instrument" : {
+        "audit" : [ 
+            {
+                "auditIndex" : 0,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-04-11T21:15:39.597Z"),
+                "fileName" : "/daq01/camel/equities/deployment/ESMA/FULINS_E_20200411_01of01.xml"
+            }, 
+            {
+                "auditIndex" : 1,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-05-30T04:37:41.940Z"),
+                "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200530_02of02.xml"
+            }, 
+            {
+                "auditIndex" : 2,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-07-10T04:45:50.567Z"),
+                "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200710_02of02.xml"
+            }, 
+            {
+                "auditIndex" : 3,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-07-21T05:19:00.022Z"),
+                "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200721_02of02.xml"
+            }, 
+            {
+                "auditIndex" : 4,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-07-23T04:47:59.453Z"),
+                "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200723_02of02.xml"
+            }, 
+            {
+                "auditIndex" : 5,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-07-25T05:39:26.321Z"),
+                "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200725_02of02.xml"
+            }, 
+            {
+                "auditIndex" : 6,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-08-09T05:06:12.413Z"),
+                "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200725_02of02.xml"
+            }, 
+            {
+                "auditIndex" : 7,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-08-22T05:22:28.290Z"),
+                "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200822_02of02.xml"
+            }, 
+            {
+                "auditIndex" : 8,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-09-22T05:31:01.041Z"),
+                "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200922_02of02.xml"
+            }, 
+            {
+                "auditIndex" : 9,
+                "program" : "NG-UDL",
+                "updateDate" : ISODate("2020-10-24T07:04:17.748Z"),
+                "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20201024_02of02.xml"
+            }, 
+            {
+                "auditIndex" : 10,
+                "program" : "DbScript",
+                "updateDate" : ISODate("2020-11-30T14:57:00.224Z"),
+                "fileName" : "UDM-45474"
+            }
+        ],
+        "_instrumentId" : {
+            "FEED" : {
+                "value" : "3ea6a500-a097-43e2-8d40-55f2f943f262"
+            }
+        },
+        "instrumentTypeCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "^E[SC][A-Z]{4}$",
+                    "domain" : "instrumentTypeCodeMap"
+                }
+            }
+        },
+        "cfiCode2015" : {
+            "FEED" : {
+                "value" : "ESVUFR"
+            }
+        },
+        "currentNominalCurrencyCode" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "NOK",
+                    "domain" : "currencyMap"
+                }
+            }
+        },
+        "instrumentLegalEntityRelations" : [ 
+            {
+                "relationType" : {
+                    "FEED" : {
+                        "value" : "Issuer"
+                    }
+                },
+                "referenceId" : {
+                    "FEED" : {}
+                },
+                "refData" : {
+                    "audit" : [],
+                    "lei" : {
+                        "FEED" : {
+                            "value" : "549300V6BLI7Z2UYNG15"
+                        }
+                    }
+                }
+            }
+        ],
+        "instrumentSourceUniqueId" : {
+            "FEED" : {
+                "value" : "NO0010785967"
+            }
+        },
+        "instrumentStatus" : {
+            "FEED" : {
+                "value" : {
+                    "val" : "1",
+                    "domain" : "instrumentStatusMap"
+                }
+            }
+        },
+        "isin" : {
+            "FEED" : {
+                "value" : "NO0010785967"
+            }
+        },
+        "maturityDate" : {
+            "FEED" : {
+                "errorCode" : 103
+            }
+        },
+        "securities" : [  
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-07-23T04:47:59.453Z"),
+                        "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200723_02of02.xml"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "9"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5f19150b200ad32019520475"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "BERB",
+                            "domain" : "exchangeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "NO0010785967.BERB"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "instrumentStatusMap"
+                        }
+                    }
+                }
+            }, 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-07-25T05:39:26.321Z"),
+                        "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200725_02of02.xml"
+                    }, 
+                    {
+                        "auditIndex" : 1,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-09-15T05:12:53.240Z"),
+                        "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200915_02of02.xml"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "10"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5f1bc0cd4c47c54158ef90ab"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "BAAD",
+                            "domain" : "exchangeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "NO0010785967.BAAD"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "0",
+                            "domain" : "instrumentStatusMap"
+                        }
+                    }
+                }
+            }, 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-07-25T05:39:26.321Z"),
+                        "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200725_02of02.xml"
+                    }, 
+                    {
+                        "auditIndex" : 1,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-07-31T04:37:44.816Z"),
+                        "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200731_02of02.xml"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "11"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5f1bc423f3abc70a0d07b2f2"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "MUND",
+                            "domain" : "exchangeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "NO0010785967.MUND"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "0",
+                            "domain" : "instrumentStatusMap"
+                        }
+                    }
+                }
+            }, 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-08-09T05:06:12.413Z"),
+                        "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20200725_02of02.xml"
+                    }, 
+                    {
+                        "auditIndex" : -1.0,
+                        "program" : "DbScript",
+                        "updateDate" : ISODate("2020-11-30T14:57:00.224Z"),
+                        "fileName" : "UDM-45474"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "12"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5f1bc423f3abc70a0d07b2f2"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "MUND",
+                            "domain" : "exchangeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "NO0010785967.MUND"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "instrumentStatusMap"
+                        }
+                    },
+                    "RDU" : {
+                        "value" : {
+                            "normalizedValue" : "I"
+                        }
+                    }
+                }
+            }, 
+            {
+                "audit" : [ 
+                    {
+                        "auditIndex" : 0,
+                        "program" : "NG-UDL",
+                        "updateDate" : ISODate("2020-10-24T07:04:17.748Z"),
+                        "fileName" : "/daq01/camel/equities/esma/delta/data/uncompress/.done/DLTINS_20201024_02of02.xml"
+                    }
+                ],
+                "_securityId" : {
+                    "FEED" : {
+                        "value" : "17"
+                    }
+                },
+                "secRawDataId" : {
+                    "FEED" : {
+                        "value" : "5f93d159771db753afcd1992"
+                    }
+                },
+                "exchangeCode" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "STUD",
+                            "domain" : "exchangeMap"
+                        }
+                    }
+                },
+                "securitySourceUniqueId" : {
+                    "FEED" : {
+                        "value" : "NO0010785967.STUD"
+                    }
+                },
+                "securityStatus" : {
+                    "FEED" : {
+                        "value" : {
+                            "val" : "1",
+                            "domain" : "instrumentStatusMap"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "insDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-04-11T21:15:39.597Z")
+        }
+    },
+    "updDate" : {
+        "RDU" : {
+            "value" : ISODate("2020-11-30T14:57:00.224Z")
+        }
+    },
+    "insUser" : {
+        "RDU" : {
+            "value" : "udl"
+        }
+    },
+    "updUser" : {
+        "RDU" : {
+            "value" : "UDM-45474"
+        }
+    },
+    "dataSourceProcessingDateTime" : {
+        "FEED" : {
+            "value" : ISODate("2020-10-24T10:08:21.297Z")
+        }
+    },
+    "_class" : "com.smartstreamrdu.domain.SdData"
+}
+;
